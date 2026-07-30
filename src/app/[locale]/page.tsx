@@ -1,0 +1,236 @@
+"use client";
+
+import Link from "next/link";
+import { useTranslations } from 'next-intl';
+import { motion } from "framer-motion";
+import { Play, Disc as Discord, ShoppingCart, Info, Search, ChevronRight } from "lucide-react";
+import { WIKI_CATEGORIES } from "@/lib/wikiConfig";
+import { SearchInput } from "@/components/SearchInput";
+import { playHoverSound, playClickSound } from "@/lib/sounds";
+import { useEffect } from "react";
+
+export default function Home() {
+  const t = useTranslations('Index');
+  const playHover = () => playHoverSound();
+  const playClick = () => playClickSound();
+
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: { staggerChildren: 0.1 }
+    }
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 20 },
+    show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 300, damping: 24 } }
+  };
+
+  return (
+    <div className="flex flex-col flex-1">
+      {/* Hero Section */}
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-background z-10" />
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            className="w-full h-full object-cover opacity-60 mix-blend-luminosity"
+            poster="/images/hero-bg.jpg"
+          >
+            <source src="/videos/hero-bg.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <h1 className="text-5xl md:text-7xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-bdo-gold via-yellow-200 to-bdo-gold mb-6 drop-shadow-lg tracking-tight uppercase">
+              Melissia Games InfoHub
+            </h1>
+            <p className="mt-4 text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed mb-10 text-shadow">
+              Melissia Games Game and Server Guide Welcome to "InfoHub":<br/>This hub features a number of referral links and informative & guiding content
+            </p>
+
+            <div className="flex flex-col items-center mt-10">
+              <div className="flex flex-col sm:flex-row justify-center gap-6">
+                <Link 
+                  href="/wiki/download-setup"
+                  onMouseEnter={() => playHover()}
+                  onClick={() => playClick()}
+                  className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-200 bg-bdo-crimson font-serif text-lg rounded-sm hover:bg-red-700 overflow-hidden shadow-[0_0_20px_rgba(220,20,60,0.5)] hover:shadow-[0_0_30px_rgba(220,20,60,0.8)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bdo-crimson"
+                >
+                  <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
+                  <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                  <span>START PLAYING NOW</span>
+                </Link>
+
+                <Link 
+                  href="https://discord.com/channels/906712777333288990"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onMouseEnter={() => playHover()}
+                  onClick={() => playClick()}
+                  className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-200 bg-[#5865F2] font-serif text-lg rounded-sm hover:bg-[#4752C4] overflow-hidden shadow-[0_0_20px_rgba(88,101,242,0.4)] hover:shadow-[0_0_30px_rgba(88,101,242,0.6)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#5865F2]"
+                >
+                  <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
+                  <Discord className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                  <span>JOIN DISCORD</span>
+                </Link>
+              </div>
+
+              <div className="mt-6">
+                <Link 
+                  href="/wiki/faq"
+                  onMouseEnter={() => playHover()}
+                  onClick={() => playClick()}
+                  className="group relative inline-flex items-center justify-center px-6 py-2 font-bold text-bdo-dark transition-all duration-200 bg-bdo-gold font-serif text-sm rounded-sm hover:bg-yellow-400 overflow-hidden shadow-[0_0_15px_rgba(198,156,109,0.4)] hover:shadow-[0_0_20px_rgba(198,156,109,0.6)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bdo-gold"
+                >
+                  <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-48 group-hover:h-48 opacity-20"></span>
+                  <Info className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
+                  <span>MUST READ</span>
+                </Link>
+              </div>
+            </div>
+            
+            <div className="mt-16 max-w-4xl mx-auto">
+               <SearchInput 
+                 className="w-full shadow-2xl" 
+                 inputClassName="py-5 text-lg pl-14" 
+                 iconClassName="w-6 h-6 left-5"
+               />
+               <p className="mt-6 text-sm text-bdo-muted font-light max-w-3xl mx-auto text-center leading-relaxed bg-bdo-surface backdrop-blur-md p-4 rounded-sm border border-bdo-border hover:border-[rgba(198,156,109,0.4)] transition-colors duration-300 ease-in-out shadow-lg">
+                This search engine is your biggest assistant on the site. You can query (type) your questions, the information you want to reach, or what you are curious about, without browsing the category, page, or content one by one. The search engine does not just find the pages or titles. It brings all the sentences or content containing your search words. You can find answers to most of your questions.
+               </p>
+            </div>
+          </motion.div>
+        </div>
+        
+        {/* Animated scroll down indicator */}
+        <motion.div 
+          className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20"
+          animate={{ y: [0, 10, 0] }}
+          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <div className="w-[30px] h-[50px] rounded-full border-2 border-bdo-gold/50 flex justify-center p-2">
+            <motion.div 
+              className="w-1 h-3 bg-bdo-gold rounded-full"
+              animate={{ y: [0, 15, 0], opacity: [1, 0, 1] }}
+              transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+            />
+          </div>
+        </motion.div>
+      </section>
+
+      {/* Categories Grid */}
+      <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-bdo-border to-transparent" />
+      <section className="py-24 bg-transparent relative">
+        <div className="absolute inset-0 bg-[url('/images/pattern-bg.png')] opacity-5 pointer-events-none mix-blend-overlay"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-serif font-bold text-white mb-4">
+              Explore the <span className="text-bdo-gold">InfoHub</span>
+            </h2>
+            <div className="w-24 h-1 bg-bdo-gold mx-auto rounded-full"></div>
+            <p className="mt-6 text-gray-400 max-w-2xl mx-auto text-lg">
+              Everything you need to know to master your journey in Melissia Games.
+            </p>
+          </div>
+
+          <motion.div 
+            variants={container}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: "-100px" }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+          >
+            {WIKI_CATEGORIES.map((category) => (
+              <motion.div key={category.name} variants={item} className="h-full">
+                <div className="bg-bdo-surface backdrop-blur-md border border-bdo-border rounded-sm p-6 h-full hover:border-[rgba(198,156,109,0.4)] transition-colors duration-300 ease-in-out group flex flex-col">
+                  <div className="w-14 h-14 bg-black/50 rounded-sm flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-bdo-gold/20 transition-all duration-300">
+                    <Info className="w-7 h-7 text-bdo-gold group-hover:text-yellow-300" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-3 font-serif group-hover:text-bdo-gold transition-colors">{category.name}</h3>
+                  <ul className="space-y-3 flex-grow">
+                    {category.pages.filter(p => !(p as any).isSubcategoryHeader).slice(0, 4).map((page) => (
+                      <li key={page.slug}>
+                        <Link 
+                          href={`/wiki/${page.slug}`}
+                          onMouseEnter={() => playHover()}
+                          onClick={() => playClick()}
+                          className="text-gray-400 hover:text-white flex items-center group/link text-sm transition-colors"
+                        >
+                          <ChevronRight className="w-4 h-4 mr-2 text-bdo-gold/50 group-hover/link:text-bdo-gold transition-colors" />
+                          <span className="truncate">{page.title}</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                  {category.pages.filter(p => !(p as any).isSubcategoryHeader).length > 4 && (
+                    <div className="mt-6 pt-4 relative">
+                      <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-bdo-border to-transparent" />
+                      <span className="text-xs text-bdo-gold/70 italic">+ {category.pages.filter(p => !(p as any).isSubcategoryHeader).length - 4} more guides</span>
+                    </div>
+                  )}
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-bdo-border to-transparent" />
+      <section className="py-24 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-bdo-surface backdrop-blur-md z-10" />
+          <div className="absolute inset-0 bg-[url('/images/footer-bg.jpg')] bg-cover bg-center opacity-30 mix-blend-luminosity" />
+        </div>
+        
+        <div className="max-w-4xl mx-auto px-4 relative z-20 text-center">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <h2 className="text-4xl font-serif font-bold text-white mb-6">Ready to write your legend?</h2>
+            <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-light">
+              Join thousands of players in the most expansive and rewarding BDO private server experience.
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center gap-6">
+              <Link 
+                href="https://discord.com/channels/906712777333288990"
+                target="_blank"
+                rel="noopener noreferrer"
+                onMouseEnter={() => playHover()}
+                onClick={() => playClick()}
+                className="inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all bg-[#5865F2] hover:bg-[#4752C4] rounded-sm shadow-lg hover:shadow-[#5865F2]/50 hover:-translate-y-1"
+              >
+                <Discord className="w-5 h-5 mr-2" />
+                Discord
+              </Link>
+              <Link 
+                href="https://office.melissia.games/shop/cash"
+                target="_blank"
+                rel="noopener noreferrer"
+                onMouseEnter={() => playHover()}
+                onClick={() => playClick()}
+                className="inline-flex items-center justify-center px-8 py-4 font-bold text-bdo-dark transition-all bg-bdo-gold hover:bg-yellow-400 rounded-sm shadow-lg hover:shadow-bdo-gold/50 hover:-translate-y-1"
+              >
+                <ShoppingCart className="w-5 h-5 mr-2" />
+                Support Us
+              </Link>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+    </div>
+  );
+}

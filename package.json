@@ -1,0 +1,44 @@
+{
+  "name": "melissiagamesinfohub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/generateSearchIndex.js && next dev",
+    "build": "node scripts/generateSearchIndex.js && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.0",
+    "fuse.js": "^7.5.0",
+    "glob": "^13.0.6",
+    "gray-matter": "^4.0.3",
+    "isomorphic-git": "^1.38.7",
+    "lucide-react": "^0.300.0",
+    "next": "14.2.3",
+    "next-intl": "^4.13.2",
+    "puppeteer": "^25.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.0",
+    "tailwind-merge": "^2.2.0",
+    "use-sound": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-syntax-highlighter": "^15.5.11",
+    "autoprefixer": "^10.5.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

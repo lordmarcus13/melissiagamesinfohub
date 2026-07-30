@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #080808;
+    --foreground: #D2D2D2;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: radial-gradient(ellipse at top, #1c1c1c, #080808, #080808);
+    background-attachment: fixed;
+    color: var(--foreground);
+    font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .text-shadow-gold {
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5), 0 0 20px rgba(212, 175, 55, 0.3);
+  }
+  .box-shadow-neon {
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3), inset 0 0 10px rgba(212, 175, 55, 0.1);
+  }
+  .box-shadow-neon-hover:hover {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.6), inset 0 0 15px rgba(212, 175, 55, 0.2);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C69C6D;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E5C298;
+}
+
+.prose-invert {
+  @apply text-gray-300;
+}
+.prose-invert h1, .prose-invert h2, .prose-invert h3, .prose-invert h4 {
+  @apply text-bdo-gold font-serif;
+}
+.prose-invert h1 {
+  @apply text-4xl mb-6 pb-2 border-b border-bdo-gold/30;
+}
+.prose-invert h2 {
+  @apply text-2xl mt-10 mb-4;
+}
+
+/* Custom Scrollbar for sidebar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--bdo-gold);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #f0c05a;
+}
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--bdo-gold) rgba(0, 0, 0, 0.2);
+}
+.prose-invert h3 {
+  @apply text-xl mt-8 mb-3;
+}
+.prose-invert p {
+  @apply mb-4 leading-relaxed;
+}
+.prose-invert a {
+  @apply text-bdo-blue hover:text-white transition-colors duration-200 underline decoration-bdo-blue/50 hover:decoration-white;
+}
+.prose-invert ul {
+  @apply list-disc list-inside mb-4 space-y-2;
+}
+.prose-invert ol {
+  @apply list-decimal list-inside mb-4 space-y-2;
+}
+.prose-invert li {
+  @apply ml-4;
+}
+.prose-invert blockquote {
+  @apply border-l-4 border-bdo-crimson pl-4 italic text-bdo-muted bg-bdo-surface/30 py-2 pr-4 rounded-sm my-6;
+}
+.prose-invert img {
+  @apply rounded-sm border border-bdo-border my-6 shadow-md mx-auto max-w-full hover:border-[rgba(198,156,109,0.4)] transition-colors duration-300 ease-in-out;
+}
+.prose-invert table {
+  @apply w-full text-left border-collapse my-6 text-sm;
+}
+.prose-invert th {
+  @apply bg-bdo-gray p-3 border-b border-bdo-gold/30 font-semibold text-bdo-gold whitespace-nowrap;
+}
+.prose-invert td {
+  @apply p-3 border-b border-bdo-border/50 text-gray-300 whitespace-nowrap;
+}
+.prose-invert tr:hover {
+  @apply bg-bdo-gray/50;
+}
+.prose-invert pre {
+  @apply bg-bdo-surface p-4 rounded-sm overflow-x-auto border border-bdo-border my-6 text-sm hover:border-[rgba(198,156,109,0.4)] transition-colors duration-300 ease-in-out backdrop-blur-md;
+}
+.prose-invert code {
+  @apply font-mono text-bdo-goldDark bg-bdo-surface/50 px-1.5 py-0.5 rounded-sm text-sm border border-bdo-border;
+}
+.prose-invert pre code {
+  @apply text-gray-300 bg-transparent p-0 text-sm;
+}
+/* Google Translate hidden UI */
+.skiptranslate { display: none !important; }
+body { top: 0px !important; }
