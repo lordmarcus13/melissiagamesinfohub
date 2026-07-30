@@ -15,6 +15,10 @@ You can download the game from the [Setup Guide](https://melissiagamesinfohub.ve
 
 You can check our rates here: [Server Info](https://melissiagamesinfohub.vercel.app/en/wiki/server-info)
 
+### WHAT ARE MELISSIA GAMES PEETS AND WHAT SHOULD I KNOW ABOUT THEM?
+
+You can read pets [here](https://melissiagamesinfohub.vercel.app/en/wiki/pet-system)
+
 ### DOES MELISSIA PROVIDE CUSTOM CONTENT?
 
 Melissia doesn't introduce extreme changes or custom items and exchange NPCs. Instead, it focuses on enhancing gameplay mechanics, balancing rates, and providing generous rewards. This way, we maintain the original experience, but with the benefit of obtaining your resources much faster, without requiring you to dedicate a massive amount of hours.
