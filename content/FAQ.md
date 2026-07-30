@@ -106,3 +106,10 @@ Many Life Skill activities in Melissia Games are buffed. The EXP you gain and th
 
 Yes.
 
+### WHY I CAN'T LOAD CANNONBALLS or HOW CAN LOAD CANNONS or WHAT IS WRONG WITH CANNONBALLS?
+
+Once you install cannon, you can load it by pressing F5 **before/without using it** `R`. If you interacted with cannon already (if you already R it);
+- Go to the cannon
+- Press `F5`. (It will open cannon inventory)
+- While the cannon inventory is open, press `R` to interact (use) it.
+- From your inventory load one ball (cannonball) at a time. 
