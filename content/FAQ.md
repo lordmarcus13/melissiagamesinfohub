@@ -5,8 +5,8 @@
 ![](https://i.ibb.co/yB5CG4PG/image.png)
 
 
-### WHAT IS MELISSIA GAMES CURRENT VERSION?
-Melissia Games current update is based on the January 15, 2025.
+### WHAT IS MELISSIA GAMES CURRENT VERSION & WHAT ARE MOST RECENT CLASSES and ZONES?
+Melissia Games is currently running the January (15 jan) 2025, Deadeye update patch. It includes all prior classes with Scholar, Dosa, and Deadeye. Recent available territories LoML, Seoul Area. 
 
 ### WHERE CAN I DOWNLOAD THE GAME?
 You can download the game from the [Setup Guide](https://melissiagamesinfohub.vercel.app/wiki/download-setup) section.
@@ -17,7 +17,7 @@ You can check our rates here: [Server Info](https://melissiagamesinfohub.vercel.
 
 ### WHAT ARE MELISSIA GAMES PEETS AND WHAT SHOULD I KNOW ABOUT THEM?
 
-You can read pets [here](https://melissiagamesinfohub.vercel.app/en/wiki/pet-system)
+You can read about pets [here](https://melissiagamesinfohub.vercel.app/en/wiki/pet-system)
 
 ### DOES MELISSIA PROVIDE CUSTOM CONTENT?
 
@@ -61,12 +61,12 @@ The amount of Pearls you actively collect will increase according to your monste
 
 ### HOW IS THE ENHANCEMENT DIFFERENT FROM RETAIL?
 
-You can check the enhancement rates here: [Enhancement](https://melissiagamesinfohub.vercel.app/en/wiki/enhancement)
+You can check the enhancement here: [Enhancement](https://melissiagamesinfohub.vercel.app/en/wiki/enhancement)
 
 
 ### ! CAN I PUT KROGDALO’S SANCTUARY INTO MOUNT INVENTORY or SHOULDN'T I?
 
-Even though we don't not understand why someone would want to do something like this at first, **You shouldn't do this. Because you can't take KROGDALO'S SANCTUARY from there anymore.**
+Even though we do not understand why someone would want to do something like this at first, **You shouldn't do this. Because you can't take KROGDALO'S SANCTUARY from there anymore.**
 
 
 ### ! WHY I CANNOT REMOVE A HORSE FROM KROGDALO’S SANCTUARY/HORSES IN KROGDALO’S SANCTUARY CANNOT BE OPERATED IN STABLE?
@@ -89,14 +89,10 @@ After purchasing (*You must use it*) a premium through the [web shop](https://me
 
 ### WHAT ARE THE PREMIUM BENEFITS?
 
-After activating your **Melissia Games UI**, you can access its features through the Menu in the upper right corner of the screen.
+You can check [Here](https://melissiagamesinfohub.vercel.app/en/wiki/premium-system) for detailed premium feature and benefits.
 
 ![](https://i.ibb.co/ZRpf9x0W/image.png)
 
-Here you will have access to the following features:
-- **Boss Timer** – You can teleport directly to the boss.
-- **Teleport** – You can save up to 3 custom teleport locations.
-- **Drop Filter** – You can filter out various unwanted item drops.
 
 ### HOW LIFE SKILL WORKS?
 

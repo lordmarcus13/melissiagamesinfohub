@@ -51,3 +51,13 @@ After **purchasing and using** Melissia Premium through the Web Shop, you will a
 - 90 days - Arsha's Glory & Ultimate Weapon
 
 > **Premium titles can be obtained upon use the premium packages.**
+
+## Features
+
+After activating your **Melissia Games UI**, you can access its features through the Menu in the upper right corner of the screen.
+
+![](https://i.ibb.co/ZRpf9x0W/image.png)
+
+- **Boss Timer** – You can teleport directly to the boss.
+- **Teleport** – You can save up to 3 custom teleport locations.
+- **Drop Filter** – You can filter out various unwanted item drops.

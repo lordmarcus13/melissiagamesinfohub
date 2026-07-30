@@ -18,6 +18,7 @@ export const WIKI_CATEGORIES = [
       { title: "Crafting Blackstar Weapons", slug: "crafting-blackstar-weapons", filename: "crafting blackstar weapons.md" },
       { title: "Sovereign Weapons", slug: "sovereign-weapons", filename: "sovereign weapons.md" },
       { title: "Leveling", slug: "leveling-header", filename: "", isSubcategoryHeader: true },
+      { title: "1 to 58 or 63 Power-Leveling", slug: "1-to-58-or-63-power-leveling", filename: "1 to 58 or 63 Power-Leveling.md", isSubcategoryItem: true },
       { title: "Arsha Elvia Bloody Monastery Crimson Bell Loop", slug: "leveling-arsha-elvia-bloody-monastery-crimson-bell-loop", filename: "Leveling Arsha Elvia Bloody Monastery Crimson Bell Loop.md", isSubcategoryItem: true },
       { title: "Savage Rift Unique-Easiest", slug: "leveling-savage-rift-unique-easiest", filename: "Leveling Savage Rift Unique-Easiest.md", isSubcategoryItem: true },
       { title: "Combat EXP Buffs", slug: "leveling-combat-exp-buffs", filename: "Leveling Combat EXP Buffs.md", isSubcategoryItem: true },
