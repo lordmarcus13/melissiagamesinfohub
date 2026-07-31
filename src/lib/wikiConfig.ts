@@ -68,6 +68,7 @@ export const WIKI_CATEGORIES = [
       { title: "Hunting", slug: "hunting", filename: "hunting.md" },
       { title: "Gathering", slug: "gathering", filename: "gathering.md" },
       { title: "Bartering and Ship", slug: "bartering-and-ship", filename: "bartering and ship.md" },
+      { title: "Failstack, Enhancement & Cron Using Guide", slug: "failstack-enhancement-and-cron-using-guide", filename: "failstack enhancement and cron using guide.md" },
     ]
   },
   {
