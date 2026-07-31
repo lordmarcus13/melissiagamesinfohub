@@ -32,3 +32,5 @@ On the server, a permanent **10x Base Chance Boost** is applied exclusively to t
 ## Features
 * **Item-Agnostic Architecture:** Functions universally for any weapon, armor, or accessory enhancement tier across the server.
 * **Dynamic Calculations:** Instantaneous updates as you modify values or test alternative failstack amounts.
+
+> - [Click here to go to Failstack Enhancement and Cron Using Guide](https://melissiagamesinfohub.vercel.app/en/wiki/failstack-enhancement-and-cron-using-guide)

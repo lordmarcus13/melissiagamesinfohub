@@ -31,8 +31,11 @@ To initialize your Agris Buffs, access the top-right interface icon ➔ **Premiu
 
 
 ## ⟡ 2. ENHANCEMENT
+> - [Click here to go to Failstack Enhancement and Cron Using Guide](https://melissiagamesinfohub.vercel.app/en/wiki/failstack-enhancement-and-cron-using-guide)
+> - [Click here to use the Enhancement Calculator for actual success rates](https://melissiagamesinfohub.vercel.app/en/wiki/enhancement-calculator)
 
 Melissia games enhancement system has two unique features. One of them is the boost you get after consuming 10,000 agris (in module B above) and base x10 upgrade chance which is you always have. 
+
 
 ### 🛑 After Burning 10.000 Agris Enhancement Buff
 
