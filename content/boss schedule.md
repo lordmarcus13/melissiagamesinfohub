@@ -6,10 +6,12 @@
 You can access in-game boss-timer by:
 
 1. Click `Melissia Games UI` top-right;
+
 ![](https://i.ibb.co/whFSs3RG/image.png)
 
 2. Click `Boss Timer` tab.
-![]https://i.ibb.co/67kNSLCn/image.png)
+
+![](https://i.ibb.co/67kNSLCn/image.png)
 
 > If you have [Melissia Premium](https://melissiagamesinfohub.vercel.app/en/wiki/premium-system) you can also use teleport feature by clicking `Teleport` to teleport to the desired boss.
 
