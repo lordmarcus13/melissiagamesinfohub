@@ -1,12 +1,17 @@
 # 💎 Premium System
 
-*Can be purchased from Central Market, Webshop, or Auction*
+*Can be purchased from Webshop, Central Market or Auction*
 
-> To activate all bonuses, **relog after activating the package**. 
+[Premium Websop](https://office.melissia.games/shop/items/c/12)
+
+> After go to website, `Login` → Click top right `Account` ➡  Click `Webshop` ➡  Click `Consumables` ➡  Select packages.
+
+
 
 ![Premium](https://i.imgur.com/4HZneik.png)
 
 ## Melissia Premium 
+> To activate all bonuses, **relog after activating the package**. 
 
 - Combat EXP +50%
 - Combat EXP (Group) +50%

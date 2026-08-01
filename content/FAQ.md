@@ -78,6 +78,25 @@ This is not implemented. All other functions of Krogdalo’s Sanctuary work as t
 - Even if the horses in the sanctuary are checked in to a stable, the horses stored within it can ONLY be summoned and used via the Sanctuary interface.
 
 
+### WHAT ARE THE PREMIUM BENEFITS?
+
+You can check [Here](https://melissiagamesinfohub.vercel.app/en/wiki/premium-system) for detailed premium feature and benefits.
+
+![](https://i.ibb.co/ZRpf9x0W/image.png)
+
+
+### HOW I CAN BUY PREMIUM FROM WEB SHOP?
+
+[Premium Websop](https://office.melissia.games/shop/items/c/12)
+
+After go to website, `Login` → Click top right `Account` ➡  Click `Webshop` ➡  Click `Consumables` ➡  Select package you want to buy.
+
+
+### WHERE IS WEBSHOP & HOW CAN I BUY PET/OUTFIT/ETC ITEMS FROM WEB SHOP?
+
+Go to [Melisia Games Website](https://melissia.games/) → Click top right `Account` ➡  Click `Webshop`
+
+
 ### HOW TO GET THOSE COOL TITLES?
 
 After purchasing (*You must use it*) a premium through the [web shop](https://melissiagamesinfohub.vercel.app/en/wiki/web-shop), you will also permanently receive the following titles below:
@@ -86,12 +105,6 @@ After purchasing (*You must use it*) a premium through the [web shop](https://me
 30 days - Arsha's Blessing & Stormtrooper
 60days - Arsha's Honor & Special Force Commander
 90 days - Arsha's Glory & Ultimate Weapon
-
-### WHAT ARE THE PREMIUM BENEFITS?
-
-You can check [Here](https://melissiagamesinfohub.vercel.app/en/wiki/premium-system) for detailed premium feature and benefits.
-
-![](https://i.ibb.co/ZRpf9x0W/image.png)
 
 
 ### HOW LIFE SKILL WORKS?
