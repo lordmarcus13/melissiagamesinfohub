@@ -31,8 +31,13 @@ There are 3 methods you can try to solve this problem:
 
 3. It was noted that a few players solved the problem as follows: *Connect to the other character that is not in the same location. Switch to the character you are having trouble with* or *Connect to another character, go to the location (city) of the character you are having trouble with and tag that character. Go out of town and switch to that character. This will change your character's location*
 
-### Frequent game crashes
-There may be more than one variable and reason here, but generally **deleting the Document\Black Desert folder** provides the solution.
+### Frequent game crashes or crashes on character & server changing or loading screens
+
+> Tip:
+> - **Do not leave window** (i.e. alt+tab) during character change or loading screens.
+> - Also, play the game in **windowed (or full screen windowed) mode**.
+
+*There may be more than one variable and reason here, but generally deleting the Document\Black Desert folder provides the solution.*
 
 ### I cannot display all the stats in Character Stat Window (P) / I cannot Guild Stats in Character Stat Window (P)
 It is visual bug. It does not mean you don't have the stats.
