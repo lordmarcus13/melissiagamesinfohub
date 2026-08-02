@@ -16,7 +16,20 @@ Start launcher, find button at right `Clear Metada and Restart` and click it.
 
 ### I can't login to my character in a location & the game crashes and/or I can login to others but I can't login to my character in a city & the game crashes?
 
-This is most likely caused by cache files and generally **deleting the Document\Black Desert folder** provides the solution. If you have cache and metadata files left on your computer from a server you have already played on, this can also cause this problem. It was noted that a few players solved the problem as follows: *Connect to the other character that is not in the same location. Switch to the character you are having trouble with* or *Connect to another character, go to the location (city) of the character you are having trouble with and tag that character. Go out of town and switch to that character. This will change your character's location*
+There are 3 methods you can try to solve this problem:
+
+1. **This is the most common and effective solution:**
+- Log in to the character you are able to login, into a less crowded server (e.g., node war). 
+- After logging into that character, try to log into your crashed character using character-changing function. *Do not leave the window on the loading screen (do not alt+tab).*
+- Move it to a different location (city) than the location (city) your crashed character is in (e.g., if your crashed character is in Velia, move it to Heidel).
+- Then change server back to crashed character's server (e.g., if crashed character's server was Melissia, change server back to Melissia).
+- Go to earlier character's location (city).
+> Let's say your problem name is `Babygirl` and her location is `Velia`, and the name of other character you can login without issue is `BigDaddy` and his location is *doesn't matter*, `Babygirl` is crashed, `BigDaddy` is not. Login to `BigDaddy`in `Node War` server. Then try to log in `Babygirl` using character-changing function. *Do not alt tab*. Now you are in `Babygirl` (mmm) and  in `Node War` server. `Babygirl` is still in `Velia`. Move `Babygirl` to `Heidel`. **Change server to Melissia**. Move your `Babygirl` to `Velia`. Now you should be able to login to `Babygirl` without any issue. 
+
+2. This is most likely caused by cache files and generally **deleting the Document\Black Desert folder** provides the solution. If you have cache and metadata files left on your computer from a server you have already played on, this can also cause this problem. 
+
+
+3. It was noted that a few players solved the problem as follows: *Connect to the other character that is not in the same location. Switch to the character you are having trouble with* or *Connect to another character, go to the location (city) of the character you are having trouble with and tag that character. Go out of town and switch to that character. This will change your character's location*
 
 ### Frequent game crashes
 There may be more than one variable and reason here, but generally **deleting the Document\Black Desert folder** provides the solution.

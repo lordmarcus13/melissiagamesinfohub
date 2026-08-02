@@ -25,6 +25,9 @@ Your final goal here will be to craft your Sovereign Weapons. Sovereign weapons 
 - You must use the same type of weapon *(Eg: if you want to create a mainhand Sovereign weapon, you must use PEN Blackstar Mainhand x2 and cannot use a Blackstar Awakening weapon).*,
 - However, you can use any mainhand Blackstar weapon *(Eg: You can use a Blackstar Longbow and a Blackstar Amulet. The Sovereign weapon will be created for the class you are currently playing).*,
 
+> If you have Godr-Ayed Blackstar weapon and want to craft a sovereign weapon, you need to turn your Godr-Ayed Weapon into a Blackstar weapon first
+For this you need "Scorching Sun Crystal". To get this crystal you need: *10x Scorching Sun Shards*, *30x Magical Shards*, *100x Black Stones*. `Heat` these. Then right click on Scorching Sun Crystal. Put the Godr-Ayed weapon there. Then it will turn into a Blackstar weapon, which you can use to exchange with sovereign
+
   **METHOD 3:** Combine PEN (V) Blackstar mainhand/awakening Weapon + Caphras Lv. 20 Boss Weapon + Gem of Twilight. 
 
 - This method is the most expensive option.,
