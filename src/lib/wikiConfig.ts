@@ -28,7 +28,7 @@ export const WIKI_CATEGORIES = [
     name: "Getting Started",
     icon: "Rocket",
     pages: [
-      { title: "Download & Setup Guide", slug: "download-setup", filename: "Melissia Games Download Links and Setup Guide.md" },
+      { title: "Download & Setup Guide", slug: "download-setup", filename: "Melissia Games Download Links & Setup Guide.md" },
       { title: "Naked to Graduated", slug: "naked-to-graduated", filename: "NAKED TO GRADUATED.md" },
       { title: "Chat Commands", slug: "chat-commands", filename: "chat commands.md" },
       { title: "New Player Rewards", slug: "new-player-rewards", filename: "Melissia Games New Player Rewards.md" },
