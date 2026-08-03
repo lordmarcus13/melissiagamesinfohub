@@ -6,6 +6,9 @@
 3. Choose path where to install game 
 4. Let the launcher download the game files
 
+> **Note:** If your drive free space is less than 140 GB, installation will fail (after downloading) due to lack of space for unpacking. The client weighs 70+ GB, and unpacking it will take another 70+ GB.
+
+> *If you have problems or questions about the installation, you can find some useful information on our Technical FAQ.  ➡ [Click here for the Technical FAQ](https://melissiagamesinfohub.vercel.app/en/wiki/technical-faq).* 
 
 
 ## Download Links
@@ -18,12 +21,7 @@
 ### [Torrent Client](https://drive.google.com/file/d/1cPMivJXI8yPgqwoj-DG6-M-6PMQSt2wW/view?usp=drive_link)
 
 
-> **If your drive free space is less than 140 GB, installation will fail (after downloading) due to lack of space for unpacking. The client weighs 70+ GB, and unpacking it will take another 70+ GB.**
-
-> *If you have problems or questions about the installation, you can find some useful information on our Technical FAQ.  ➡ [Click here for the Technical FAQ](https://melissiagamesinfohub.vercel.app/en/wiki/technical-faq).* 
-
-
-## If Google Drive encounters a Download Limit Issue
+## *If Google Drive encounters a Download Limit Issue*
 
 ### Click on `File` at the very top.
 
