@@ -1,5 +1,8 @@
 # Melissia Games Download Links & Setup Guide
 
+*To create an account [Click here](https://office.melissia.games/register)*
+*To recover your account [Click here](https://office.melissia.games/recovery)*
+
 ## Recommended Download & Installation Method
 1. Download the launcher
 2. Install the launcher

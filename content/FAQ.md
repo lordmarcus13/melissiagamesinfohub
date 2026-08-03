@@ -4,18 +4,25 @@
 
 ![](https://i.ibb.co/yB5CG4PG/image.png)
 
+### HOW CAN I CREATE AN ACCOUNT?
+
+To create an account [Click here](https://office.melissia.games/register)
+
+### HOW CAN I RECOVER MY ACCOUNT? (I FORGOT MY PASSWORD / EMAIL / USERNAME)
+
+To recover your account [Click here](https://office.melissia.games/recovery)
 
 ### WHAT IS MELISSIA GAMES CURRENT VERSION & WHAT ARE MOST RECENT CLASSES and ZONES?
 Melissia Games is currently running the January (15 jan) 2025, Deadeye update patch. It includes all prior classes with Scholar, Dosa, and Deadeye. Recent available territories LoML, Seoul Area. 
 
 ### WHERE CAN I DOWNLOAD THE GAME?
-You can download the game from the [Setup Guide](https://melissiagamesinfohub.vercel.app/wiki/download-setup) section.
+You can download the game from the [Setup Guide](https://melissiagamesinfohub.vercel.app/en/wiki/download-setup) section.
 
 ### HOW IS MELISSIA SERVER RATES?
 
 You can check our rates here: [Server Info](https://melissiagamesinfohub.vercel.app/en/wiki/server-info)
 
-### WHAT ARE MELISSIA GAMES PEETS AND WHAT SHOULD I KNOW ABOUT THEM?
+### WHAT ARE MELISSIA GAMES PETS AND WHAT SHOULD I KNOW ABOUT THEM?
 
 You can read about pets [here](https://melissiagamesinfohub.vercel.app/en/wiki/pet-system)
 
