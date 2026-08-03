@@ -37,21 +37,36 @@ There are 3 methods you can try to solve this problem:
 > - **Do not leave window** (i.e. alt+tab) during character change or loading screens.
 > - Also, play the game in **windowed (or full screen windowed) mode**.
 
-*There may be more than one variable and reason here, but generally deleting the Document\Black Desert folder provides the solution.*
+### I downloaded game complteley but the launcher doesn't recognize it (Downloading is begin again or starting all over again) What should I do?
+
+If your drive free space is less than 140 GB, installation will fail (after downloading) due to lack of space for unpacking. The client weighs 70+ GB, and unpacking it will take another 70+ GB. (Solution: Free up space)
+
+### I am getting en error message "System.UnauthorizedAccessException: Access to the path 'D:\System Volume Information' or 'C:\System Volume Information' is denied" 
+
+**Do not install directly to a local disk without creating any folders/subfolders**. Create a folder (e.g., `D:\Games\Melissia` or `C:\Games\Melissia`) and install the game in there.
+
+> Tip:
+> If you want to do download game in a different installation path than default (default path: `C:\Users\%USERPROFILE%\AppData\LocalLow\MelissiaGamesLauncher\`). **Install the launcher as default (default path: `C:\Program Files (x86)\Melissia Games\Melissia Games Launcher`).** When Launcher asks you to chose the folder where you want to download the game, pick the subfolder in `D:\` (you created) and install it there.**
+ 
 
 ### I cannot display all the stats in Character Stat Window (P) / I cannot Guild Stats in Character Stat Window (P)
+
 It is visual bug. It does not mean you don't have the stats.
 
 ### Bro I literally cannot connect to Season Server wtf?
+
 Your character may have exceeded season availability period (30 days).
 
 ### When ever i try to transport a character game reconnect then take me to character selection menu
+
 This feature is not implemented
 
 ### The game keep reconnecting. Do I have to use VPN to have a smooth gameplay without disconnecting?
+
 It's better to use a VPN if you have high ping and latency
 
 ### No indicator above players' heads showing their gender???????
+
 This is pure sorror which causes vulnerability to traps
 
 > If you have another server client or remnants of it installed on your system, it may cause disconnects or crashes in this game.

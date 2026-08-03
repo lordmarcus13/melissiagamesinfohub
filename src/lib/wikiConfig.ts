@@ -41,7 +41,6 @@ export const WIKI_CATEGORIES = [
     icon: "Swords",
     pages: [
       { title: "Enhancement & Agris", slug: "enhancement", filename: "Melissia Games - Enhancement & Agris System.md" },
-      { title: "Magnus", slug: "magnus", filename: "magnus.md" },
       { title: "Imperial Auction", slug: "imperial-auction", filename: "Melissia Games Imperial Auction.md" },
       { title: "Pet System", slug: "pet-system", filename: "Melissia Games Pet System.md" },
       { title: "Premium System", slug: "premium-system", filename: "Melissia Games Premium System.md" },
@@ -69,6 +68,7 @@ export const WIKI_CATEGORIES = [
       { title: "Gathering", slug: "gathering", filename: "gathering.md" },
       { title: "Bartering and Ship", slug: "bartering-and-ship", filename: "bartering and ship.md" },
       { title: "Failstack, Enhancement & Cron Using Guide", slug: "failstack-enhancement-and-cron-using-guide", filename: "failstack enhancement and cron using guide.md" },
+      { title: "Magnus", slug: "magnus", filename: "magnus.md" },
     ]
   },
   {
