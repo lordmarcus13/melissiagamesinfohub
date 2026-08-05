@@ -2,7 +2,9 @@
 ![](https://i.ibb.co/Pv5J8StK/image.png)
 
 ## What is a GM Medal?
-A GM Medal is an exclusive reward granted by GMs/Admins during events or upon reaching specific achievements. **Once you collect 5 medals**, any item or piece of equipment you request will be provided directly by `@TyBoo`.
+A GM Medal is an exclusive reward granted by GMs/Admins during events or upon reaching specific achievements. [Click here to read more about Special Progression/Achievements](https://melissiagamesinfohub.vercel.app/en/wiki/special-progression-and-achievement-rewards) 
+
+**Once you collect 5 medals**, any item or piece of equipment you request will be provided directly by `@TyBoo`.
 
 ![](https://i.ibb.co/PssTsgrJ/image.png)
 
@@ -21,3 +23,4 @@ You may claim any single item, piece of equipment, or Webshop content currently 
 * **Silver**, **Silver Bars**, **Gold Bars**, or any other in-game currencies cannot be claimed.
 * **If requesting Pearls, you may only receive the single Pearl package that yields the maximum Pearl amount.**
 * **Edited** or **custom** content cannot be requested.
+
