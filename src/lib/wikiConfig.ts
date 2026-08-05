@@ -54,6 +54,7 @@ export const WIKI_CATEGORIES = [
       { title: "Reworked Lakiaro", slug: "reworked-lakiaro", filename: "reworked_lakiaro.md" },
       { title: "Custom World & Guild Boss Drops", slug: "custom-boss-drops", filename: "custom world and guild boss drop list.md" },
       { title: "Boss Schedule", slug: "boss-schedule", filename: "boss schedule.md" },
+      { title: "GM Medal Rewards", slug: "gm-medal-rewards", filename: "gm medal rewards.md" },
     ]
   },
   {
