@@ -31,4 +31,4 @@ Melissia Games is a Black Desert Online project with over 6 years of history, un
 | **Steal Drop** | 10x | 15x | 10x |
 | **Bartering & Coins** | 10x | 15x | 10x |
 | **Night Merchant** | 10x | 15x | 10x |
-| **Horse Breeding** | 14x | 14x | 14x |
+| **Horse Breeding** | 16x | 16x | 16x |

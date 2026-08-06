@@ -75,11 +75,6 @@ The amount of Pearls you actively collect will increase according to your monste
 You can check the enhancement here: [Enhancement](https://melissiagamesinfohub.vercel.app/en/wiki/enhancement)
 
 
-### ! CAN I PUT KROGDALO’S SANCTUARY INTO MOUNT INVENTORY or SHOULDN'T I?
-
-Even though we do not understand why someone would want to do something like this at first, **You shouldn't do this. Because you can't take KROGDALO'S SANCTUARY from there anymore.**
-
-
 ### ! WHY I CANNOT REMOVE A HORSE FROM KROGDALO’S SANCTUARY/HORSES IN KROGDALO’S SANCTUARY CANNOT BE OPERATED IN STABLE?
 
 This is not implemented. All other functions of Krogdalo’s Sanctuary work as they should. 
