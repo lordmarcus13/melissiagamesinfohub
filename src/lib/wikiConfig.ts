@@ -89,7 +89,7 @@ export const WIKI_CATEGORIES = [
     pages: [
       { title: "Server Status", slug: "server-status", filename: "Click for Server Status & Online Number.md" },
       { title: "Player Reporting", slug: "player-reporting", filename: "Player Reporting Guide.md" },
-      { title: "Bug Reporting", slug: "bug-reporting", filename: "bug reporting guide.MD" },
+      { title: "Bug Reporting", slug: "bug-reporting", filename: "bug reporting guide.md" },
       { title: "Suggestions", slug: "suggestions", filename: "Suggestion.md" },
       { title: "Vote Melissia Games", slug: "vote", filename: "Vote Melissia Games.md" },
       { title: "Account Management", slug: "account-management", filename: "Website and Account Management.md" },
