@@ -5,7 +5,7 @@
 
 ## 🔸 **IS THERE A TIME LIMIT TO STAY IN SEASON?**
 
-Yes, there is. Seasonal Channel is accessible for the 30 days after a player first enters it. On the Melissia Games server, your access to the season servers is based on a 30-day "time bank" that only ticks down while you actively have a season character, completely independent of your account's total age. Think of it like a prepaid timer you can pause at will: if you create a season character, play for 7 days, and then graduate them, your timer pauses and you keep the remaining 23 days saved for the future. You could wait three months, create a second season character, play for 10 more days, graduate again, and still have 13 days left to use whenever you want. The system strictly tracks the active lifespan of your season characters, allowing you to freely divide your allotted season access across multiple characters and timelines. For returning players (who have been inactive for more than 90 days), the time bank starts with 15 days.
+Yes, there is. Seasonal Channel is accessible for the 30 days for new players. For returning players (who have not logged in for more than 90 days), the time is 15 days.
 
 ## 🔸 HOW DOES THE SEASON SYSTEM WORK ON MELISSIA?
 
