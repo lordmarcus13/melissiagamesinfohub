@@ -34,3 +34,20 @@ The game currently offers the "[Simplified Main Quest](https://www.blackdesertfo
 [Naked to Graduated](https://melissiagamesinfohub.vercel.app/en/wiki/naked-to-graduated)
 
 [Click to Go to ➡ Progression Guide](https://melissiagamesinfohub.vercel.app/en/wiki/progression-guide)
+
+## 🔸 MY SEASON SERVER ACCESS HAS EXPIRED. CAN I STILL CREATE SEASON CHARACTERS AND PLAY ON NORMAL SERVERS?
+
+Yes, you can still create season characters and play on normal servers by buying season character ticket from F3 once and more from webshop.
+
+## 🔸 HOW CAN I GET TIME-FILLED BLACK STONES FOR SEASON CHARACTER ON NORMAL SERVER?
+
+There are quests where you can get Time-filled Black Stone in Season Pass.
+For example;
+- With one of them, you get 200 by upgrading Naru to TRI level.
+- By converting PEN Naru to PRI Tuvala, you get 400 more.
+- At level 52, 200.
+- Without using Time-filled Black Stone you already got 800 (1600 with pass)
+- By doing an enhancement with the stones you got (weapon), 500 more.
+- By enhancing one armor DUO, 400 more.
+
+With these amounts, you get a self-sustaining loop and you can fully max a season character very easily. not even mentioning that if you have Black Spirit Pass, it will double this amount 
