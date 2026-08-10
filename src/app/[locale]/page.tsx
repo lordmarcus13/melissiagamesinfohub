@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useTranslations } from 'next-intl';
 import { motion } from "framer-motion";
-import { Play, Disc as Discord, ShoppingCart, Info, Search, ChevronRight } from "lucide-react";
+import { Play, Disc as Discord, ShoppingCart, Info, Search, ChevronRight, Wrench } from "lucide-react";
 import { WIKI_CATEGORIES } from "@/lib/wikiConfig";
 import { SearchInput } from "@/components/SearchInput";
 import { playHoverSound, playClickSound } from "@/lib/sounds";
@@ -85,7 +85,7 @@ export default function Home() {
                 </Link>
               </div>
 
-              <div className="mt-6">
+              <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
                 <Link 
                   href="/wiki/faq"
                   onMouseEnter={() => playHover()}
@@ -95,6 +95,17 @@ export default function Home() {
                   <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-48 group-hover:h-48 opacity-20"></span>
                   <Info className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
                   <span>MUST READ</span>
+                </Link>
+
+                <Link 
+                  href="/wiki/technical-faq"
+                  onMouseEnter={() => playHover()}
+                  onClick={() => playClick()}
+                  className="group relative inline-flex items-center justify-center px-6 py-2 font-bold text-white transition-all duration-200 bg-amber-600 font-serif text-sm rounded-sm hover:bg-amber-500 overflow-hidden shadow-[0_0_15px_rgba(217,119,6,0.4)] hover:shadow-[0_0_20px_rgba(217,119,6,0.6)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-600"
+                >
+                  <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-48 group-hover:h-48 opacity-20"></span>
+                  <Wrench className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
+                  <span>FIX GAME</span>
                 </Link>
               </div>
             </div>

@@ -5,6 +5,7 @@ export const WIKI_CATEGORIES = [
     pages: [
       { title: "Frequently Asked Questions", slug: "faq", filename: "FAQ.md" },
       { title: "Technical FAQ & Issues", slug: "technical-faq", filename: "issues techincal FAQ.md" },
+      { title: "Crash Guide", slug: "crash-guide", filename: "crash guide.md" },
     ]
   },
   {
