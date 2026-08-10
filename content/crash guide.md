@@ -15,15 +15,14 @@
 1. 🔵 **Close the game.**
 2. 🔵 **Close launcher.**
 3. 🔵 **Go to game folder.**
-4. 🔵 **Find `bin64` folder and go inside.**
-5. 🔵 **Find `melissia` folder and go inside.**
-6. 🔵 **Look for `Cache` folder and go inside.**
-7. 🔵 **Delete the `1` folder in `Cache` folder.**
-8. 🔵 **Go to `Document\Black Desert` folder and delete it.**
-9. 🔵 **If there are any other server client or remnants of it installed on your system (including official BDO and other private servers)**
+4. 🔵 **Find `bin64` folder and go inside.** 
+5. 🔵 **Look for `Cache` folder and go inside.**
+6. 🔵 **Delete the `1` folder in `Cache` folder.**
+7. 🔵 **Go to `Document\Black Desert` folder and delete it.**
+8. 🔵 **If there are any other server client or remnants of it installed on your system (including official BDO and other private servers)**
     - Go to `Document` folder, find any folder related to BDO. *This names may vary depending on your installed server clients (Let's say you have also play or played a private server named `AnotherBDO`, it's folder can be named `Black Desert`,`AnotherBDO`etc.)*
     - Delete all of them.
-10. 🔵 **Launch the game and try to login to your character.**
+9. 🔵 **Launch the game and try to login to your character.**
 -----
 ※ **If you still have problems after above steps you may want to hear some tips:**
 > - **Do not leave window** (i.e. alt+tab) during character change or loading screens.
