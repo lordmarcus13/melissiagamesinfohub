@@ -42,7 +42,7 @@
 > If you want to do download game in a different installation path than default (default path: `C:\Users\%USERPROFILE%\AppData\LocalLow\MelissiaGamesLauncher\`). **Install the launcher as default (default path: `C:\Program Files (x86)\Melissia Games\Melissia Games Launcher`).** When Launcher asks you to chose the folder where you want to download the game, pick the subfolder in `D:\` (you created) and install it there.**
  
 
-### ※ OASIS VENDOR: I HAVE MELISSIA PREMIUM AND I SEE ALL ITEMS IN OASIS VENDOR BUT WHEN I PRESS BUY ONE ITEM DON'T GIVE ME THE ITEM?
+### ※ GUILD BUFF (STATS) NOT SHOWING UP STAT MENU?
 
 - It is visual bug. It does not mean you don't have the stats.
 
