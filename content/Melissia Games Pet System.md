@@ -25,7 +25,7 @@ Melissia features two different types of pets with unique effects.
 
 
 - **Prestige Black Panther:** 
-  - *Effect:* +55% Drop rate increase.
+  - *Effect:* +55% Drop rate increase. (At T5)
   - **Stackable:** **Yes**
   - ![Panther](https://i.imgur.com/77kAPG6.png)
 
