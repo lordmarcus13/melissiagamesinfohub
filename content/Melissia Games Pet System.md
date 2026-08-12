@@ -16,13 +16,26 @@ Melissia features two different types of pets with unique effects.
   - *Stackable:* No.
   - ![Hedgehog](https://i.imgur.com/HMF1aJn.png)
 
-### Cash (Acoin) Pets
-- **Pet Elephant:** +10,000 Max LT (Increases weight limit). *Stackable: Yes.*
+### Other Cash (Acoin) Pets
+
+- **Pet Elephant:** +10,000 Max LT (Increases weight limit).
+   **Stackable:** ***Yes**
   - ![Elephant](https://i.imgur.com/nocJjSi.png)
-- **Prestige Black Panther:** +55% Drop rate increase. *Stackable: Yes.*
+
+
+- **Prestige Black Panther:** +55% Drop rate increase.
+   **Stackable:** ***Yes**
   - ![Panther](https://i.imgur.com/77kAPG6.png)
-- **Skeleton:** 450% Combat + Life EXP Boost. *Stackable: No.*
+
+
+- **Skeleton:** 450% Combat + Life EXP Boost.
+   **Stackable:** ***No**
   - ![Skeleton](https://i.imgur.com/ZZI6jwt.png)
+
+> **💡 To summon multiple stackable pets:** Use `Pet Groups`.
+
+![](https://i.ibb.co/HLD0YR4Z/image.png)
+
 
 > **💡 Identifying Cash Pets:** You can easily identify a Cash pet by looking for the vertical strip on the right side of the pet's avatar frame.
 > ![](https://i.imgur.com/15auBkj.png)
