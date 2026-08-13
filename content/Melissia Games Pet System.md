@@ -29,6 +29,7 @@ Melissia features two different types of pets with unique effects.
   - **Stackable:** **Yes**
   - ![Panther](https://i.imgur.com/77kAPG6.png)
 
+> 💡 **Drop Rate Cap:** *300% drop rate is visual ONLY, you can still exceed it. Even when you have more than one panther, the UI may not show that the drop rate is above 300% (even though you should have exceeded 300% drop rate with the buffs and panthers you have), this is just visual. Actually, you can make 1700+ with all buffs, server and panthers.* 
 
 - **Skeleton:** 
   - *Effect:* 450% Combat + Life EXP Boost.
