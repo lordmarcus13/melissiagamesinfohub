@@ -44,24 +44,32 @@
 ※ Yes, there is. Seasonal Channel is accessible for the 30 days for new players. For returning players (who have not logged in for more than 90 days), the time is 15 days.
 
 ### DO I NEED TO DO THE MAIN QUEST, ADVENTURE LOG AND MAGNUS?
+※ Short Answer is yes. There are no auto-quest done or auto-adventure log done.
 
 ※ The game itself provides a system where you can choose between the conventional path of completing the entire Main Quest or skipping the process through the Simplified Questline. You can find more details in the [Naked to Graduated](https://melissiagamesinfohub.vercel.app/en/wiki/naked-to-graduated) and [Progression Guide](https://melissiagamesinfohub.vercel.app/en/wiki/progression-guide). As for the Adventure Logs, they must be completed in full.
 
 ※ Our current patch includes Igor Bartali’s Adventure Log rework, making it faster and easier to complete all the books.
+
 ※ Keep in mind that quests generally proceed and are completed in the same way as retail, but some differences may exist.
 
 ### HOW TO DO MAGNUS?
 
 ※ For details check our [Magnus Guide](https://melissiagamesinfohub.vercel.app/en/wiki/magnus). 
+
 ※ Magnus is simplified and there is no need to bother with details and puzzles. Almost all tasks can be completed just by talking to the cat.
+
 ※ If you have problems you can solve them with relog.
 
 ※ Fairy can be obtained by completing a short questline, similar to retail.
+
 ※ You can check the full guide here: [Fairy Guide](https://www.blackdesertfoundry.com/fairy-guide/)
 
 ### SHOULD I START WITH A NORMAL OR SEASONAL CHARACTER?
 
+※ Short answer is yes. 
+
 ※ Although we provide temporary gear (15 days) for normal characters, we recommend starting your journey with a Seasonal Character.
+
 ※ Seasonal characters receive all the necessary materials and gear to ensure a smooth and comfortable start on the server.
 
 ※ You can find more details in the [Naked to Graduated](https://melissiagamesinfohub.vercel.app/en/wiki/naked-to-graduated) and [Progression Guide](https://melissiagamesinfohub.vercel.app/en/wiki/progression-guide)
@@ -69,10 +77,13 @@
 ### HOW CAN I OBTAIN PEARLS & WHAT IS THE DAILY PEARL LIMIT?
 
 ※ You can obtain a total of 4,800 Pearls daily:
+
 ※ 2.400 Pearls by completing various activities (killing mobs, Life Skills such as gathering and fishing).
+
 ※ The amount of Pearls you actively collect will increase according to your monster, gathering and fishing level.
 
 ※ 2.400 Pearls by staying logged in on your character.
+
 ※ 80 Pearls every 30 minutes (100 Pearls every 30 minutes if you have Premium).
 
 ### HOW IS THE ENHANCEMENT DIFFERENT FROM RETAIL?
@@ -83,9 +94,13 @@
 ### ! WHY I CANNOT REMOVE A HORSE FROM KROGDALO’S SANCTUARY/HORSES IN KROGDALO’S SANCTUARY CANNOT BE OPERATED IN STABLE?
 
 ※ This is not implemented. All other functions of Krogdalo’s Sanctuary work as they should. 
+
 ※ **Ensure that you have fully finished training, skill selection, stat optimization, and all other desired modifications on your horses BEFORE placing them into Krogdalo’s Sanctuary.**
+
 ※ Once a horse is registered to Krogdalo’s Sanctuary, it CANNOT be extracted, removed, or reverted back into an independent mount.
+
 ※ Horses inside the Sanctuary cannot be managed through the standard Stable UI. You will NOT be able to change skills, train/level them up, reset deaths/growth, use coupons, or transport them between stables etc.
+
 ※ Even if the horses in the sanctuary are checked in to a stable, the horses stored within it can ONLY be summoned and used via the Sanctuary interface.
 
 
@@ -111,12 +126,15 @@
 ### HOW TO GET THOSE COOL TITLES?
 
 ※ After purchasing (*You must use it*) a premium through the [web shop](https://melissiagamesinfohub.vercel.app/en/wiki/web-shop), you will also permanently receive the following titles below:
-7 days - Arsha's Proof
-15 days - Arsha's Acknowledgment
-30 days - Arsha's Blessing & Stormtrooper
-60days - Arsha's Honor & Special Force Commander
-90 days - Arsha's Glory & Ultimate Weapon
+* 7 days - Arsha's Proof
+* 15 days - Arsha's Acknowledgment
+* 30 days - Arsha's Blessing & Stormtrooper
+* 60 days - Arsha's Honor & Special Force Commander
+* 90 days - Arsha's Glory & Ultimate Weapon
 
+### SOME CRYSTAL SET EFFECTS CANNOT BE DISPLAYED ON TRANSFUSION UI OR CRYSTAL EFFECT POP-UP?
+
+※ Some crystal set effects cannot be displayed on transfusion UI or crystal effect pop-up. But they work. You can check your stats through Character Stat window.
 
 ### HOW LIFE SKILL WORKS?
 
@@ -129,7 +147,19 @@
 ### WHY I CAN'T LOAD CANNONBALLS or HOW CAN LOAD CANNONS or WHAT IS WRONG WITH CANNONBALLS?
 
 ※ Once you install cannon, you can load it by pressing F5 **before/without using it** `R`. If you interacted with cannon already (if you already R it);
+
 ※ Go to the cannon
+
 ※ Press `F5`. (It will open cannon inventory)
+
 ※ While the cannon inventory is open, press `R` to interact (use) it.
+
 ※ From your inventory load one ball (cannonball) at a time. 
+
+### OASIS VENDOR: I HAVE MELISSIA PREMIUM AND I SEE ALL ITEMS IN OASIS VENDOR BUT WHEN I PRESS BUY ONE ITEM DON'T GIVE ME THE ITEM?
+
+※ It is disabled. Why not remove it completely? Because the npc is needed for the premium horses.
+
+### GUILD BUFF (STATS) NOT SHOWING UP STAT MENU?
+
+※ It is visual bug. It does not mean you don't have the stats.

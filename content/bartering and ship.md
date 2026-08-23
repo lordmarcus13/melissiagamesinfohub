@@ -26,6 +26,11 @@ Among these drops is the ultimate prize for a barterer: **Epheria's Star**.
 2. Travel to **Epheria Port** and speak with the NPC **Philaberto Falasi**.
 3. Upon completing the quest, you will be rewarded with a unique title ("Captain Epheria") and an **exclusive, massive ship**. the **Epheria Galleon**
 
+> **Epheria Galleon is different than retail:**
+> * There is no time limit for its use. It is yours forever. (*Retail: 7 days*)
+> * Weight limit is increased to 400.000 LT.
+
+
 ### Why is this Special Ship Better?
 This ship is the undisputed king of bartering:
 * It requires **no gear** to be equipped.
