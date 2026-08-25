@@ -18,6 +18,7 @@ export const WIKI_CATEGORIES = [
       { title: "Upgrading Deboreka Accessories", slug: "upgrading-boss-aramor-deboreka-accessories", filename: "upgrading boss aramor deboreka accessories.md" },
       { title: "Crafting Blackstar Weapons", slug: "crafting-blackstar-weapons", filename: "crafting blackstar weapons.md" },
       { title: "Sovereign Weapons", slug: "sovereign-weapons", filename: "sovereign weapons.md" },
+      { title: "Wealth Achievements & Rewards", slug: "wealth-achievements-and-rewards", filename: "wealth achievements and rewards.md" },
       { title: "Legendary Progression & Achievement Rewards", slug: "legendary-progression-and-achievement-rewards", filename: "legendary progression and achievement rewards.md" },
       { title: "Leveling", slug: "leveling-header", filename: "", isSubcategoryHeader: true },
       { title: "1 to 58 or 63 Power-Leveling", slug: "1-to-58-or-63-power-leveling", filename: "1 to 58 or 63 Power-Leveling.md", isSubcategoryItem: true },
