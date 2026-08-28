@@ -35,6 +35,34 @@
 
 ※ Melissia doesn't introduce extreme changes or custom items and exchange NPCs. Instead, it focuses on enhancing gameplay mechanics, balancing rates, and providing generous rewards. This way, we maintain the original experience, but with the benefit of obtaining your resources much faster, without requiring you to dedicate a massive amount of hours.
 
+### DO I NEED TO COMPLETE THE MAIN QUEST, ADVENTURE LOGS, AND MAGNUS?
+
+※ Short answer is Yes. The server does not feature auto-completed quests or automatically cleared Adventure Logs; all progression must be finished manually.
+
+※ You can choose between completing the full conventional Main Quest or utilizing the **Simplified Questline** to streamline your progress. Refer to the [Naked to Graduated](https://melissiagamesinfohub.vercel.app/en/wiki/naked-to-graduated) and [Progression Guide](https://melissiagamesinfohub.vercel.app/en/wiki/progression-guide) for specific requirements and setup.
+
+※ Adventure Logs: Must be completed in full. However, Igor Bartali’s Adventure Log has been reworked in the current patch to allow significantly faster and easier completion across all volumes.
+
+※ Quest progression and completion mechanics mirror official retail servers, though minor custom variations may exist.
+
+### IS THERE A QUEST GUIDE & HOW TO DO A QUEST?
+
+※ Before asking about quests and reporting quest issues, please keep in mind that Melissia Games quests are mostly retail.
+
+※ You can simply use Google search with quest name or purpose. 
+
+### IS THERE RECIPE DATABASE FOR CRAFTING?
+
+※ You can use normal crafting recipe database like [BDO Codex](https://bdocodex.com/us/) or [BDOlytics](https://bdolytics.com/en/db/recipes).
+
+※ There may be some differences between the retail database and our database, because of date of the patches. If you have any problems, you can always ask in our discord channel.
+
+### DOES MELISSIA GAMES PROVIDE FULL MAP COVERAGE OR ALL KNOWLEDGE?
+
+※ No, it does not. Melissia Games does not provide full map coverage or all knowledge for players. You can obtain knowledge by exploring the world, completing quests, and interacting with NPCs. As usual.
+
+※ You will obtain [Event] Shakatu's Surety while exploring the world.
+
 ### WHAT IS SPECIAL PROGRESSION/ACHIEVEMENTS AND REWARDS?
 
 ※ You can read about Special Progression/Achievements and rewards [by clicking here](https://melissiagamesinfohub.vercel.app/en/wiki/legendary-progression-and-achievement-rewards)
@@ -42,15 +70,6 @@
 ### IS THERE A TIME LIMIT TO STAY IN SEASON?
 
 ※ Yes, there is. Seasonal Channel is accessible for the 30 days for new players. For returning players (who have not logged in for more than 90 days), the time is 15 days.
-
-### DO I NEED TO DO THE MAIN QUEST, ADVENTURE LOG AND MAGNUS?
-※ Short Answer is yes. There are no auto-quest done or auto-adventure log done.
-
-※ The game itself provides a system where you can choose between the conventional path of completing the entire Main Quest or skipping the process through the Simplified Questline. You can find more details in the [Naked to Graduated](https://melissiagamesinfohub.vercel.app/en/wiki/naked-to-graduated) and [Progression Guide](https://melissiagamesinfohub.vercel.app/en/wiki/progression-guide). As for the Adventure Logs, they must be completed in full.
-
-※ Our current patch includes Igor Bartali’s Adventure Log rework, making it faster and easier to complete all the books.
-
-※ Keep in mind that quests generally proceed and are completed in the same way as retail, but some differences may exist.
 
 ### HOW TO DO MAGNUS?
 
