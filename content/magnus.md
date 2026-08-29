@@ -43,8 +43,22 @@ You can still add and use the replaced Absolute skill via Quick Slot.
 ## OTHER REWARDS
 You can check all progression rewards here: The Magnus - Once per Family quest rewards
 
-## GENERAL TIPS FOR SPECIFIC QUESTS
+## GENERAL TIPS
 
+1. **Apply Frame Rate Cap (30–60 FPS):**
+   * Limit maximum frame rate using **RivaTuner Statistics Server (RTSS)** or **NVIDIA Control Panel** (`Max Frame Rate` = `60 FPS`).
+   * Drop monitor refresh rate or in-game display settings to force execution below 60 FPS.
+
+2. **Position & State Reset:**
+   * Execute in-game **Rescue (`Escape`)** to pull the character back to a valid navmesh coordinate.
+   * If trapped out-of-bounds, forfeit, swap characters/channels to purge local instance cache, and re-accept the quest.
+
+3. **Cutscene Triggering:**
+   * Ascend the tree path, interact with the abyssal cat, and select **"Return to Magnus"**.
+   * If the cutscene does not automatically initiate, manually trigger the interaction key (`R`) on the glowing floor node at the base of the tree while locked at ≤60 FPS.
+
+
+## TIPS FOR SPECIFIC QUESTS
 
 ### QUEST: LOOK BEFORE YOU...
 - Keep going up until the stairs end, then interact with the secret part in the wall.
@@ -83,3 +97,4 @@ You can check all progression rewards here: The Magnus - Once per Family quest r
 
 
 > Still couldnt? [Click to Go to Video Guide](https://youtu.be/n1gwIY68i0w)
+

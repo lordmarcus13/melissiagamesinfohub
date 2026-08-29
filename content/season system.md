@@ -6,6 +6,7 @@
 ## 🔸 **IS THERE A TIME LIMIT TO STAY IN SEASON?**
 
 Yes, there is. Seasonal Channel is accessible for the 30 days for new players. For returning players (who have not logged in for more than 90 days), the time is 15 days.
+This time is not for per character. This is for account.
 
 ## 🔸 HOW DOES THE SEASON SYSTEM WORK ON MELISSIA?
 
@@ -34,6 +35,10 @@ The game currently offers the "[Simplified Main Quest](https://www.blackdesertfo
 [Naked to Graduated](https://melissiagamesinfohub.vercel.app/en/wiki/naked-to-graduated)
 
 [Click to Go to ➡ Progression Guide](https://melissiagamesinfohub.vercel.app/en/wiki/progression-guide)
+
+## 🔸 I HAVE ALREADY BOUGHT A SEASON CHARACTER TICKET BUT CHARACTER CREATION SCREEN DOES NOT SHOW SEASON CHARACTER OPTION?
+
+You can have only 1 active season character at a time. If you have one, you need to graduate it first to create another one.
 
 ## 🔸 MY SEASON SERVER ACCESS HAS EXPIRED. CAN I STILL CREATE SEASON CHARACTERS AND PLAY ON NORMAL SERVERS?
 
