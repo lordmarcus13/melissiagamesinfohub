@@ -3,16 +3,18 @@
 import Link from "next/link";
 import { useTranslations } from 'next-intl';
 import { motion } from "framer-motion";
-import { Play, Disc as Discord, ShoppingCart, Info, Search, ChevronRight, Wrench } from "lucide-react";
+import { Play, Disc as Discord, ShoppingCart, Info, Search, ChevronRight, Wrench, Clock } from "lucide-react";
 import { WIKI_CATEGORIES } from "@/lib/wikiConfig";
 import { SearchInput } from "@/components/SearchInput";
 import { playHoverSound, playClickSound } from "@/lib/sounds";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { BossTimerModal } from "@/components/BossTimerModal";
 
 export default function Home() {
   const t = useTranslations('Index');
   const playHover = () => playHoverSound();
   const playClick = () => playClickSound();
+  const [isTimerOpen, setIsTimerOpen] = useState(false);
 
   const container = {
     hidden: { opacity: 0 },
@@ -107,6 +109,16 @@ export default function Home() {
                   <Wrench className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
                   <span>FIX GAME</span>
                 </Link>
+
+                <button 
+                  onClick={() => { playClick(); setIsTimerOpen(true); }}
+                  onMouseEnter={() => playHover()}
+                  className="group relative inline-flex items-center justify-center px-6 py-2 font-bold text-white transition-all duration-200 bg-purple-600 font-serif text-sm rounded-sm hover:bg-purple-500 overflow-hidden shadow-[0_0_15px_rgba(147,51,234,0.4)] hover:shadow-[0_0_20px_rgba(147,51,234,0.6)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-600"
+                >
+                  <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-48 group-hover:h-48 opacity-20"></span>
+                  <Clock className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
+                  <span>BOSS TIMER</span>
+                </button>
               </div>
             </div>
             
@@ -242,6 +254,8 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+
+      <BossTimerModal isOpen={isTimerOpen} onClose={() => setIsTimerOpen(false)} />
     </div>
   );
 }
