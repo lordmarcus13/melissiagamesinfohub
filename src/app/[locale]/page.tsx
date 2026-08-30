@@ -110,15 +110,6 @@ export default function Home() {
                   <span>FIX GAME</span>
                 </Link>
 
-                <button 
-                  onClick={() => { playClick(); setIsTimerOpen(true); }}
-                  onMouseEnter={() => playHover()}
-                  className="group relative inline-flex items-center justify-center px-6 py-2 font-bold text-white transition-all duration-200 bg-purple-600 font-serif text-sm rounded-sm hover:bg-purple-500 overflow-hidden shadow-[0_0_15px_rgba(147,51,234,0.4)] hover:shadow-[0_0_20px_rgba(147,51,234,0.6)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-600"
-                >
-                  <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-48 group-hover:h-48 opacity-20"></span>
-                  <Clock className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
-                  <span>BOSS TIMER</span>
-                </button>
               </div>
             </div>
             
@@ -256,6 +247,29 @@ export default function Home() {
       </section>
 
       <BossTimerModal isOpen={isTimerOpen} onClose={() => setIsTimerOpen(false)} />
+      
+      {/* Floating Boss Timer Button */}
+      <motion.button 
+        onClick={() => { playClick(); setIsTimerOpen(true); }}
+        onMouseEnter={() => playHover()}
+        animate={{ scale: [1, 1.15, 1] }}
+        transition={{ duration: 1.2, repeat: Infinity, ease: "easeInOut" }}
+        className="fixed left-4 top-1/2 -translate-y-1/2 z-40 w-20 h-20 flex flex-col items-center justify-center font-bold text-white transition-colors bg-purple-600 hover:bg-purple-500 rounded-full shadow-[0_0_25px_rgba(147,51,234,0.7)] border-2 border-purple-400 backdrop-blur-md hidden md:flex focus:outline-none"
+      >
+        <Clock className="w-8 h-8 mb-1" />
+        <span className="text-[10px] font-serif leading-tight text-center">BOSS<br/>TIMER</span>
+      </motion.button>
+
+      {/* Mobile Floating Boss Timer Button */}
+      <motion.button 
+        onClick={() => { playClick(); setIsTimerOpen(true); }}
+        onMouseEnter={() => playHover()}
+        animate={{ scale: [1, 1.1, 1] }}
+        transition={{ duration: 1.2, repeat: Infinity, ease: "easeInOut" }}
+        className="fixed right-4 bottom-24 z-40 w-14 h-14 flex flex-col items-center justify-center font-bold text-white transition-colors bg-purple-600 hover:bg-purple-500 rounded-full shadow-[0_0_20px_rgba(147,51,234,0.7)] border-2 border-purple-400 backdrop-blur-md md:hidden focus:outline-none"
+      >
+        <Clock className="w-6 h-6" />
+      </motion.button>
     </div>
   );
 }
