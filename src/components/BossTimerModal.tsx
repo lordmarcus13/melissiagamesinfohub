@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { X } from "lucide-react";
+import { X, Bell, BellOff } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const bossSchedule = [
@@ -55,7 +55,34 @@ export function BossTimerModal({ isOpen, onClose }: BossTimerModalProps) {
     const [countdown, setCountdown] = useState("--:--:--");
     const [activeBosses, setActiveBosses] = useState<string[]>([]);
     const [activeIndex, setActiveIndex] = useState(-1);
+    const [alertsEnabled, setAlertsEnabled] = useState(false);
+    
     const listRef = useRef<HTMLUListElement>(null);
+    const notifiedBossIndex = useRef<number | null>(null);
+    const alertsEnabledRef = useRef(alertsEnabled);
+
+    // Keep ref in sync with state for setInterval closure
+    useEffect(() => {
+        alertsEnabledRef.current = alertsEnabled;
+    }, [alertsEnabled]);
+
+    const toggleAlerts = () => {
+        if (!alertsEnabled) {
+            if ("Notification" in window) {
+                Notification.requestPermission().then((permission) => {
+                    if (permission === "granted") {
+                        setAlertsEnabled(true);
+                    } else {
+                        alert("Please allow notifications in your browser settings to receive alerts.");
+                    }
+                });
+            } else {
+                alert("This browser does not support desktop notifications.");
+            }
+        } else {
+            setAlertsEnabled(false);
+        }
+    };
 
     useEffect(() => {
         if (!isOpen) return;
@@ -96,6 +123,31 @@ export function BossTimerModal({ isOpen, onClose }: BossTimerModalProps) {
             const secs = remainingSecs % 60;
 
             setCountdown(`${String(hours).padStart(2, '0')}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`);
+            
+            // Check for notification
+            if (alertsEnabledRef.current && remainingSecs <= 300 && notifiedBossIndex.current !== nextIdx) {
+                const nextBoss = bossSchedule[nextIdx];
+                new Notification("World Boss Spawning Soon!", { 
+                    body: `${nextBoss.bosses.join(', ')} spawns in 5 minutes!` 
+                });
+
+                try {
+                    const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+                    if (AudioContextClass) {
+                        const ctx = new AudioContextClass();
+                        const osc = ctx.createOscillator();
+                        osc.type = 'sine';
+                        osc.frequency.setValueAtTime(440, ctx.currentTime);
+                        osc.connect(ctx.destination);
+                        osc.start();
+                        osc.stop(ctx.currentTime + 0.5);
+                    }
+                } catch (e) {
+                    console.error("Audio playback failed", e);
+                }
+
+                notifiedBossIndex.current = nextIdx;
+            }
 
             setActiveIndex((prevIdx) => {
                 if (prevIdx !== nextIdx) {
@@ -139,7 +191,18 @@ export function BossTimerModal({ isOpen, onClose }: BossTimerModalProps) {
                             <X className="w-5 h-5" />
                         </button>
                         
-                        <div className="pt-8 pb-6 px-5 text-center border-b border-[#2c303c] bg-gradient-to-b from-[#222631] to-[#17181e]">
+                        <div className="pt-8 pb-6 px-5 text-center border-b border-[#2c303c] bg-gradient-to-b from-[#222631] to-[#17181e] relative">
+                            <button 
+                                onClick={toggleAlerts}
+                                className={`absolute top-4 left-4 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all ${
+                                    alertsEnabled 
+                                    ? 'bg-[#e5b3522a] text-[#e5b352] border border-[#e5b352]' 
+                                    : 'bg-black/30 text-gray-400 border border-transparent hover:text-gray-200'
+                                }`}
+                            >
+                                {alertsEnabled ? <Bell className="w-3.5 h-3.5" /> : <BellOff className="w-3.5 h-3.5" />}
+                                {alertsEnabled ? 'Alerts On' : 'Alerts Off'}
+                            </button>
                             <div className="text-xs tracking-[1.5px] uppercase text-[#8b92a5] mb-2">{serverTime}</div>
                             <div className="text-5xl font-bold tabular-nums text-[#e5b352] drop-shadow-[0_0_16px_rgba(229,179,82,0.25)] leading-tight mb-4">{countdown}</div>
                             <div className="flex flex-wrap gap-2 justify-center">
