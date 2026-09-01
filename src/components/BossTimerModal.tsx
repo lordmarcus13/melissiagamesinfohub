@@ -5,7 +5,7 @@ import { X, Bell, BellOff } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const bossSchedule = [
-    { time: "01:00", bosses: ["Stormbringer Nouver", "Bulgasal"] },
+    { time: "01:00", bosses: ["Kzarka", "Bulgasal"] },
     { time: "01:15", bosses: ["Uturi"] },
     { time: "01:30", bosses: ["Golden Pig King"] },
     { time: "01:45", bosses: ["Sangoon"] },
@@ -13,30 +13,30 @@ const bossSchedule = [
     { time: "05:15", bosses: ["Uturi"] },
     { time: "05:30", bosses: ["Golden Pig King"] },
     { time: "05:45", bosses: ["Sangoon"] },
-    { time: "09:00", bosses: ["Bulgasal"] },
+    { time: "09:00", bosses: ["Targargo", "Bulgasal"] },
     { time: "09:15", bosses: ["Uturi"] },
-    { time: "09:30", bosses: ["Golden Pig King"] },
+    { time: "09:30", bosses: ["Katzvariak", "Golden Pig King"] },
     { time: "09:45", bosses: ["Sangoon"] },
     { time: "10:00", bosses: ["Giant Mudster", "Red Nose"] },
-    { time: "12:00", bosses: ["Thundercloud Ancient Kutum"] },
-    { time: "13:00", bosses: ["Bulgasal"] },
+    { time: "12:00", bosses: ["Stormbringer Karanda"] },
+    { time: "13:00", bosses: ["Vell", "Bulgasal"] },
     { time: "13:15", bosses: ["Uturi"] },
     { time: "13:30", bosses: ["Golden Pig King"] },
     { time: "13:45", bosses: ["Sangoon"] },
-    { time: "14:00", bosses: ["Nouver"] },
+    { time: "14:00", bosses: ["Thundercloud Ancient Kutum"] },
     { time: "15:30", bosses: ["Quint", "Muraka"] },
-    { time: "16:00", bosses: ["Stormbringer Karanda"] },
-    { time: "17:00", bosses: ["Targargo", "Bulgasal"] },
+    { time: "16:00", bosses: ["Stormbringer Nouver"] },
+    { time: "17:00", bosses: ["Offin", "Bulgasal"] },
     { time: "17:15", bosses: ["Uturi"] },
     { time: "17:30", bosses: ["Golden Pig King"] },
     { time: "17:45", bosses: ["Sangoon"] },
-    { time: "18:00", bosses: ["Ancient Kutum"] },
-    { time: "19:00", bosses: ["Katzvariak"] },
+    { time: "18:00", bosses: ["Kzarka Nightmares"] },
+    { time: "19:00", bosses: ["Garmoth"] },
     { time: "21:00", bosses: ["Bulgasal"] },
     { time: "21:15", bosses: ["Uturi"] },
-    { time: "21:30", bosses: ["Nouver", "Stormbringer Karanda", "Golden Pig King"] },
+    { time: "21:30", bosses: ["Dim Tree Spirit", "Dastard Bheg", "Golden Pig King"] },
     { time: "21:45", bosses: ["Sangoon"] },
-    { time: "23:30", bosses: ["Kzarka Nightmares"] }
+    { time: "23:30", bosses: ["Nouver", "Kzarka Nightmares"] }
 ];
 
 function getGMT3Now() {
