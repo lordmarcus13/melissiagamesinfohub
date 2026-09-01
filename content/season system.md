@@ -36,6 +36,16 @@ The game currently offers the "[Simplified Main Quest](https://www.blackdesertfo
 
 [Click to Go to ➡ Progression Guide](https://melissiagamesinfohub.vercel.app/en/wiki/progression-guide)
 
+## 🔸 HOW CAN CREATE ANOTHER SEASON CHARACTER?
+
+You can create another season character buying Season Character Ticket.
+
+## 🔸 WHERE I CAN BUY SEASON CHARACTER TICKET?
+
+You can buy **1** Season Character Ticket from F3.
+
+You can buy more Season Character Ticket from [https://melissia.games/](https://melissia.games/)
+
 ## 🔸 I HAVE ALREADY BOUGHT A SEASON CHARACTER TICKET BUT CHARACTER CREATION SCREEN DOES NOT SHOW SEASON CHARACTER OPTION?
 
 You can have only 1 active season character at a time. If you have one, you need to graduate it first to create another one.
