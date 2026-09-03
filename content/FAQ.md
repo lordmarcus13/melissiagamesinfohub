@@ -23,6 +23,10 @@
 
 ※ You can download the game from the [Setup Guide](https://melissiagamesinfohub.vercel.app/en/wiki/download-setup) section.
 
+### ARE THERE ANY NEW PLAYER REWARDS?
+
+※ Yes, there are. You can check our new player rewards [here](https://melissiagamesinfohub.vercel.app/en/wiki/new-player-rewards)
+
 ### HOW IS MELISSIA SERVER RATES?
 
 ※ You can check our rates here: [Server Info](https://melissiagamesinfohub.vercel.app/en/wiki/server-info)

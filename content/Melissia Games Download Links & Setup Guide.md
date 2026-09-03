@@ -2,6 +2,8 @@
 
 *To create an account [Click here](https://office.melissia.games/register)*
 *To recover your account [Click here](https://office.melissia.games/recovery)*
+*[To claim the new player rewards, click here](https://melissiagamesinfohub.vercel.app/en/wiki/new-player-rewards)*
+
 
 ## Recommended Download & Installation Method
 1. Download the launcher
