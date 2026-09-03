@@ -43,6 +43,10 @@ Upon activation Fail-stacks gained from a failed attempt are multiplied by 2.5. 
 
 > This buff-boost (It is also Newbie&returning player buff) will NOT multiply the available Failstack pool you will use (i.e. 100 FS will not be treated as 750 FS). Due to the system architecture, these buffs (e.g. Enhancement Boost) only multiply the amount of new failstack you pocket when you make a failed attempt. The multiplied amount is visible in the interface
 
+### Newbie & Returning Player Buff
+
+New players receive and Returning Player (90+ days absent) get the buff *fail-stacks gained from a failed attempt are now multiplied by 2.5. When enchanting items the number of failed stack is increased by 2.5  for 14 days*. Without burning agris.
+
 ---
 
 
