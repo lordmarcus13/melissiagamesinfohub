@@ -27,6 +27,10 @@
 
 ※ You can check our rates here: [Server Info](https://melissiagamesinfohub.vercel.app/en/wiki/server-info)
 
+### IS THERE A PROGRESSION GUIDE?
+
+※ Yes, there is. You can check our progression guide [here](https://melissiagamesinfohub.vercel.app/en/wiki/progression-guide)
+
 ### WHAT ARE MELISSIA GAMES PETS AND WHAT SHOULD I KNOW ABOUT THEM?
 
 ※ You can read about pets [here](https://melissiagamesinfohub.vercel.app/en/wiki/pet-system)
@@ -182,3 +186,35 @@
 ### GUILD BUFF (STATS) NOT SHOWING UP STAT MENU?
 
 ※ It is visual bug. It does not mean you don't have the stats.
+
+### WHEN I DIE DO I LOSE CRYSTALS or DO CRYSTALS BREAK?
+
+※ Yes. You lose your crystals and they break. But you can recover/restore them with Crystal Restore Count Coupon.
+
+### WHERE CAN I GET CRYSTAL RESTORE COUNT COUPON?
+
+※ You can buy from pearlshop in game `F3`
+
+### HOW TO RESTORE CRYSTAL or I USED CRYSTAL RESTORE COUNT COUPON BUT IT DON'T RESTORE CRYSTALS IS IT SCAM?
+
+※ After you die and crystals break;
+
+-  Click trash icon at bottom-right of your inventory.
+
+![](https://i.ibb.co/DDZLyCzP/Black-Desert64-Eyv-HDEl-Cm-M.png)
+
+-  Click `Recover` button.
+
+![](https://i.ibb.co/3YrCBhk1/Black-Desert64-4-Ds-OYurg-Bj.png)
+
+-  Go to `Crystals` tab
+
+![](https://i.ibb.co/d0bYM4Gd/Black-Desert64-q-Ro-JAnu-OUZ.png)
+
+-  Click the crystal(s) and click `Restore`)
+
+![](https://i.ibb.co/1GBkk90L/Black-Desert64-Ua8-Uuy-Xj-OM.png)
+
+-  You will get **mail** to claim your crystals. Check with `B` key. Then receive them.
+
+![](https://i.ibb.co/F4gsXzWx/Black-Desert64-J1-KU9-Dfr-K0.png)

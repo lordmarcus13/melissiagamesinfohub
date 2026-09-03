@@ -1,6 +1,8 @@
 # Progression Guide
 
-
+**IF YOU ARE NEW TO SERVER, GO TO  ➡  [Naked to Graduated](https://melissiagamesinfohub.vercel.app/en/wiki/naked-to-graduated)**
+> After complete season, back here.
+> **All you need to do is to follow the links at bottom of each page.**
 
 This guide assumes you completed following prerequisites:
 1. Complete your Season Pass.
@@ -11,4 +13,4 @@ This guide assumes you completed following prerequisites:
 
  **NOTE:** If you have not complete season or you don't know how to do that click to go [Naked to Graduated](https://melissiagamesinfohub.vercel.app/en/wiki/naked-to-graduated)
 
-[Continue to PEN BOSS GEAR, DARK RIFT and DEBO REKA PREPARATION](https://melissiagamesinfohub.vercel.app/en/wiki/pen-boss-gear-dark-rift-and-debo-reka-preparation)
+ ➡  [Continue to PEN BOSS GEAR, DARK RIFT and DEBO REKA PREPARATION](https://melissiagamesinfohub.vercel.app/en/wiki/pen-boss-gear-dark-rift-and-debo-reka-preparation)
