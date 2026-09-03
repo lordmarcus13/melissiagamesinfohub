@@ -3,9 +3,9 @@
 
 Welcome to Melissia Games! Here are some rewards to help you get started:
 
-[Click Here to Register/Create Account](https://office.melissia.games/register)
+-  [Click Here to Register/Create Account](https://office.melissia.games/register)
 
-[Click Here to Download Game](https://melissiagamesinfohub.vercel.app/en/wiki/download-setup)
+-  [Click Here to Download Game](https://melissiagamesinfohub.vercel.app/en/wiki/download-setup)
 
 ## ✧ COUPON REWARDS ✧
 
