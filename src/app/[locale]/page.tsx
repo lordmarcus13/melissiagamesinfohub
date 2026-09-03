@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useTranslations } from 'next-intl';
 import { motion } from "framer-motion";
-import { Play, Disc as Discord, ShoppingCart, Info, Search, ChevronRight, Wrench, Clock } from "lucide-react";
+import { Play, Disc as Discord, ShoppingCart, Info, Search, ChevronRight, Wrench, Clock, Gift } from "lucide-react";
 import { WIKI_CATEGORIES } from "@/lib/wikiConfig";
 import { SearchInput } from "@/components/SearchInput";
 import { playHoverSound, playClickSound } from "@/lib/sounds";
@@ -247,29 +247,68 @@ export default function Home() {
       </section>
 
       <BossTimerModal isOpen={isTimerOpen} onClose={() => setIsTimerOpen(false)} />
-      
-      {/* Floating Boss Timer Button */}
-      <motion.button 
-        onClick={() => { playClick(); setIsTimerOpen(true); }}
-        onMouseEnter={() => playHover()}
-        animate={{ scale: [1, 1.15, 1] }}
-        transition={{ duration: 1.2, repeat: Infinity, ease: "easeInOut" }}
-        className="fixed left-4 top-1/2 -translate-y-1/2 z-40 w-20 h-20 flex flex-col items-center justify-center font-bold text-white transition-colors bg-purple-600 hover:bg-purple-500 rounded-full shadow-[0_0_25px_rgba(147,51,234,0.7)] border-2 border-purple-400 backdrop-blur-md hidden md:flex focus:outline-none"
-      >
-        <Clock className="w-8 h-8 mb-1" />
-        <span className="text-[10px] font-serif leading-tight text-center">BOSS<br/>TIMER</span>
-      </motion.button>
+      {/* Floating Side Action Buttons Container (Desktop) */}
+      <div className="fixed left-4 top-1/2 -translate-y-1/2 z-40 hidden md:flex flex-col gap-6">
+        {/* New Player Rewards Button */}
+        <motion.div
+          animate={{ scale: [1, 1.15, 1] }}
+          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+          whileHover={{ scale: 1.25, transition: { duration: 0.2 } }}
+          className="relative group"
+        >
+          <Link 
+            href="/wiki/new-player-rewards"
+            onClick={playClick}
+            onMouseEnter={playHover}
+            className="w-20 h-20 flex flex-col items-center justify-center font-bold text-bdo-dark transition-all bg-bdo-gold hover:bg-yellow-400 hover:shadow-[0_0_35px_rgba(229,179,82,0.9)] rounded-full shadow-[0_0_25px_rgba(229,179,82,0.6)] border-2 border-yellow-200 backdrop-blur-md focus:outline-none"
+          >
+            <Gift className="w-8 h-8 mb-1" />
+            <span className="text-[9px] font-serif leading-tight text-center px-1 uppercase drop-shadow-md">NEW PLAYER<br/>REWARDS</span>
+          </Link>
+        </motion.div>
 
-      {/* Mobile Floating Boss Timer Button */}
-      <motion.button 
-        onClick={() => { playClick(); setIsTimerOpen(true); }}
-        onMouseEnter={() => playHover()}
-        animate={{ scale: [1, 1.1, 1] }}
-        transition={{ duration: 1.2, repeat: Infinity, ease: "easeInOut" }}
-        className="fixed right-4 bottom-24 z-40 w-14 h-14 flex flex-col items-center justify-center font-bold text-white transition-colors bg-purple-600 hover:bg-purple-500 rounded-full shadow-[0_0_20px_rgba(147,51,234,0.7)] border-2 border-purple-400 backdrop-blur-md md:hidden focus:outline-none"
-      >
-        <Clock className="w-6 h-6" />
-      </motion.button>
+        {/* Floating Boss Timer Button */}
+        <motion.button 
+          onClick={() => { playClick(); setIsTimerOpen(true); }}
+          onMouseEnter={() => playHover()}
+          animate={{ scale: [1, 1.15, 1] }}
+          transition={{ duration: 1.2, repeat: Infinity, ease: "easeInOut" }}
+          whileHover={{ scale: 1.25, transition: { duration: 0.2 } }}
+          className="w-20 h-20 flex flex-col items-center justify-center font-bold text-white transition-all bg-purple-600 hover:bg-purple-500 hover:shadow-[0_0_35px_rgba(147,51,234,0.9)] rounded-full shadow-[0_0_25px_rgba(147,51,234,0.7)] border-2 border-purple-400 backdrop-blur-md focus:outline-none"
+        >
+          <Clock className="w-8 h-8 mb-1" />
+          <span className="text-[10px] font-serif leading-tight text-center">BOSS<br/>TIMER</span>
+        </motion.button>
+      </div>
+
+      {/* Floating Side Action Buttons Container (Mobile) */}
+      <div className="fixed right-4 bottom-24 z-40 flex md:hidden flex-col gap-4 items-end">
+        {/* New Player Rewards Button */}
+        <motion.div
+          animate={{ scale: [1, 1.1, 1] }}
+          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <Link 
+            href="/wiki/new-player-rewards"
+            onClick={playClick}
+            onMouseEnter={playHover}
+            className="w-14 h-14 flex flex-col items-center justify-center font-bold text-bdo-dark transition-all bg-bdo-gold hover:bg-yellow-400 rounded-full shadow-[0_0_20px_rgba(229,179,82,0.6)] border-2 border-yellow-200 backdrop-blur-md focus:outline-none"
+          >
+            <Gift className="w-6 h-6" />
+          </Link>
+        </motion.div>
+
+        {/* Mobile Floating Boss Timer Button */}
+        <motion.button 
+          onClick={() => { playClick(); setIsTimerOpen(true); }}
+          onMouseEnter={() => playHover()}
+          animate={{ scale: [1, 1.1, 1] }}
+          transition={{ duration: 1.2, repeat: Infinity, ease: "easeInOut" }}
+          className="w-14 h-14 flex flex-col items-center justify-center font-bold text-white transition-all bg-purple-600 hover:bg-purple-500 rounded-full shadow-[0_0_20px_rgba(147,51,234,0.7)] border-2 border-purple-400 backdrop-blur-md focus:outline-none"
+        >
+          <Clock className="w-6 h-6" />
+        </motion.button>
+      </div>
     </div>
   );
 }
