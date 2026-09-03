@@ -76,3 +76,7 @@ You do not enhance these from scratch. You obtain them directly at **NOV (IX)** 
 - **To SILENT:** 160–180 FS | Use Valks' Cry | Use Crons
 - **To WAILING:** 200–250 FS | Use Valks' Cry | Use Crons
 - **To OBLITERATING:** 300+ FS | Use Valks' Cry | Use Crons
+
+## HOW TO GET FAILSTACKS / FS?
+
+To get FAILSTACKS (FS) **Run LOML bosses for bulk 30–40 stacks.** For higher FS, **farm Elvia Hexe and exchange 50 Crystallized Despairs for a +100 FS.** To push those stacks further, use **Origins of Dark Hunger farmed from Darkseeker's Retreat (DSR) to hit 300 FS.**
