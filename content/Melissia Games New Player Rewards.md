@@ -9,6 +9,7 @@ Welcome to Melissia Games! Here are some rewards to help you get started:
 
 ## ✧ COUPON REWARDS ✧
 
+
 -  Peridot Leaf
 
 ```LEAFS-FOR-THE-NOOBS```
@@ -73,7 +74,12 @@ Welcome to Melissia Games! Here are some rewards to help you get started:
 
 ```NEW-PLAYER-SMAID```
 
+> **Important Note:** Some rewards may appear as a single item in the inventory even when you have received multiple units. This is a visual bug in the game. You actually receive the specified number of items, but they are stacked in one inventory slot. For example, if you receive 7 x 1-day premium, you will only see one item in your inventory. However, there are 7 items, but they are in the same slot. When you use it by right-clicking, the total amount will be correctly deducted. 
+
+> You can also verify this by moving the items to storage.
+
 > Coupons are also available on [Discord](https://discord.com/channels/906712777333288990/1421996185400377374/1501962560470257704)
+
 > If you do not know how to redeem coupons, [click here](https://melissiagamesinfohub.vercel.app/en/wiki/active-coupons)
 
 
