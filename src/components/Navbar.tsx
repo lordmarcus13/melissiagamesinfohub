@@ -99,8 +99,9 @@ export function Navbar() {
                 );
               })}
               
-              <Link href="/wiki/server-info" className="flex items-center space-x-1 px-1 2xl:px-2 py-2 rounded-md text-[13px] 2xl:text-sm font-medium transition-colors text-bdo-gold hover:text-white whitespace-nowrap ml-2">
-                <span>Server Info & Rates</span>
+              <Link href="/wiki/server-info" className="flex flex-col items-center justify-center px-1 2xl:px-2 py-1 rounded-md text-[12px] 2xl:text-[13px] font-medium transition-transform transform hover:-translate-y-0.5 text-bdo-gold hover:text-white leading-tight text-center ml-2">
+                <span>Server Info</span>
+                <span>& Rates</span>
               </Link>
             </div>
           </div>
