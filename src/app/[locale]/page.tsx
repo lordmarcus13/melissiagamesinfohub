@@ -47,21 +47,21 @@ export default function Home() {
           </video>
         </div>
 
-        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
+        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-16">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h1 className="text-5xl md:text-7xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-bdo-gold via-yellow-200 to-bdo-gold mb-6 drop-shadow-lg tracking-tight uppercase">
+            <h1 className="text-4xl md:text-6xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-bdo-gold via-yellow-200 to-bdo-gold mb-3 drop-shadow-lg tracking-tight uppercase">
               Melissia Games InfoHub
             </h1>
-            <p className="mt-4 text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed mb-10 text-shadow">
-              Melissia Games Game and Server Guide Welcome to "InfoHub":<br/>This hub features a number of referral links and informative & guiding content
+            <p className="mt-2 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed mb-6 text-shadow">
+              Welcome to Melissia Games InfoHub:<br/>This hub features a number of referral links and informative & guiding content
             </p>
 
-            <div className="flex flex-col items-center mt-10">
-              <div className="flex flex-col sm:flex-row justify-center gap-6">
+            <div className="flex flex-col items-center mt-4">
+              <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Link 
                   href="/wiki/download-setup"
                   onMouseEnter={() => playHover()}
@@ -114,29 +114,29 @@ export default function Home() {
             </div>
             
             {/* Server Info Highlight */}
-            <div className="mt-10 max-w-5xl mx-auto px-4">
-              <div className="relative p-4 md:p-6 group text-center">
-                <p className="text-lg md:text-xl text-gray-200 font-light leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
-                  <strong className="text-bdo-gold font-serif text-xl md:text-2xl font-bold tracking-wide mr-1 drop-shadow-[0_2px_4px_rgba(0,0,0,1)]">Melissia Games</strong> 
+            <div className="mt-6 max-w-5xl mx-auto px-4">
+              <div className="relative p-2 md:p-4 group text-center">
+                <p className="text-base md:text-lg text-gray-200 font-light leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+                  <strong className="text-bdo-gold font-serif text-lg md:text-xl font-bold tracking-wide mr-1 drop-shadow-[0_2px_4px_rgba(0,0,0,1)]">Melissia Games</strong> 
                   Currently running <span className="text-white font-medium">January 15, 2025 patch</span> with <span className="text-yellow-200 font-medium">Seoul area</span>, <span className="text-white font-medium">Dosa & Scholar & Deadeye classes</span> and <span className="text-white font-medium">Voltarion Horse & Boosted Alpaca mounts</span>.
                 </p>
-                <p className="mt-4 text-base md:text-lg text-gray-300 font-light leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+                <p className="mt-2 text-sm md:text-base text-gray-300 font-light leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
                   Over <span className="text-white font-medium">six years</span> of continuous development history, offering an active, non-toxic community environment alongside retail-like content with <strong className="text-bdo-gold tracking-wide font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,1)]">boosted rates</strong>.
                 </p>
                 
-                <div className="mt-6 flex flex-col items-center justify-center text-bdo-gold/90 animate-pulse">
-                  <span className="text-sm md:text-base font-bold tracking-[0.2em] uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">↓ Search for more ↓</span>
+                <div className="mt-3 flex flex-col items-center justify-center text-bdo-gold/90 animate-pulse">
+                  <span className="text-xs md:text-sm font-bold tracking-[0.2em] uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">↓ Search for more ↓</span>
                 </div>
               </div>
             </div>
 
-            <div className="mt-10 max-w-4xl mx-auto relative z-30">
+            <div className="mt-4 max-w-4xl mx-auto relative z-30">
                <SearchInput 
                  className="w-full shadow-2xl" 
-                 inputClassName="py-5 text-lg pl-14" 
-                 iconClassName="w-6 h-6 left-5"
+                 inputClassName="py-4 text-base pl-12" 
+                 iconClassName="w-5 h-5 left-4"
                />
-               <p className="mt-6 text-sm text-bdo-muted font-light max-w-3xl mx-auto text-center leading-relaxed bg-bdo-surface backdrop-blur-md p-4 rounded-sm border border-bdo-border hover:border-[rgba(198,156,109,0.4)] transition-colors duration-300 ease-in-out shadow-lg">
+               <p className="mt-4 text-xs md:text-sm text-bdo-muted font-light max-w-3xl mx-auto text-center leading-relaxed bg-bdo-surface backdrop-blur-md p-3 rounded-sm border border-bdo-border hover:border-[rgba(198,156,109,0.4)] transition-colors duration-300 ease-in-out shadow-lg">
                 This search engine is your biggest assistant on the site. You can query (type) your questions, the information you want to reach, or what you are curious about, without browsing the category, page, or content one by one. The search engine does not just find the pages or titles. It brings all the sentences or content containing your search words. You can find answers to most of your questions.
                </p>
             </div>
