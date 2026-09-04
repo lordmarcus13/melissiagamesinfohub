@@ -33,17 +33,17 @@ export function Navbar() {
   return (
     <nav className="fixed w-full z-50 bg-bdo-surface backdrop-blur-md">
       <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-bdo-border to-transparent" />
-      <div className="w-full mx-auto px-2 sm:px-4 lg:px-4 xl:px-4 2xl:px-8">
+      <div className="w-full mx-auto px-2 sm:px-4 lg:px-4 xl:px-4 2xl:px-2">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-1 xl:gap-1 2xl:gap-1">
             <Link href="/" className="flex-shrink-0">
-              <span className="text-[20px] 2xl:text-[22px] font-serif font-bold text-bdo-gold text-shadow-gold tracking-widest">
+              <span className="text-[18px] 2xl:text-[20px] font-serif font-bold text-bdo-gold text-shadow-gold tracking-widest">
                 MELISSIA <span className="text-white">GAMES</span>
               </span>
             </Link>
             
             <div className="hidden 2xl:flex items-baseline space-x-0">
-              <Link href="/wiki/enhancement-calculator" className="flex items-center px-1 py-2 rounded-md text-[13px] 2xl:text-sm font-medium transition-colors text-bdo-gold hover:text-white whitespace-nowrap">
+              <Link href="/wiki/enhancement-calculator" className="flex items-center px-1 py-2 rounded-md text-[12px] 2xl:text-[13px] font-medium transition-colors text-bdo-gold hover:text-white whitespace-nowrap">
                 <Swords className="w-4 h-4 mr-1" />
                 <span>Enhancement</span>
               </Link>
@@ -58,7 +58,7 @@ export function Navbar() {
                     onMouseLeave={() => setActiveDropdown(null)}
                   >
                     <button className={cn(
-                      "flex items-center px-1 py-2 rounded-md text-[13px] 2xl:text-sm font-medium transition-colors hover:text-bdo-gold whitespace-nowrap",
+                      "flex items-center px-1 py-2 rounded-md text-[12px] 2xl:text-[13px] font-medium transition-colors hover:text-bdo-gold whitespace-nowrap",
                       activeDropdown === category.name ? "text-bdo-gold" : "text-gray-300"
                     )}>
                       {Icon && <Icon className="w-4 h-4 mr-1" />}
@@ -99,7 +99,7 @@ export function Navbar() {
                 );
               })}
               
-              <Link href="/wiki/server-info" className="flex items-center px-1 py-2 rounded-md text-[13px] 2xl:text-sm font-medium transition-colors hover:text-bdo-gold whitespace-nowrap text-gray-300">
+              <Link href="/wiki/server-info" className="flex items-center px-1 py-2 rounded-md text-[12px] 2xl:text-[13px] font-medium transition-colors hover:text-bdo-gold whitespace-nowrap text-gray-300">
                 <Info className="w-4 h-4 mr-1" />
                 <span>Server Info & Rates</span>
               </Link>
@@ -107,7 +107,7 @@ export function Navbar() {
           </div>
 
           <div className="hidden 2xl:flex items-center space-x-1 2xl:space-x-2">
-            <SearchInput className="w-24 2xl:w-32" />
+            <SearchInput className="w-32 2xl:w-44" />
             <LanguageSwitcher />
             <Link href="/wiki/download-setup" className="px-3 2xl:px-4 py-2 bg-bdo-crimson text-white rounded text-[13px] 2xl:text-sm font-medium hover:bg-red-700 transition-colors shadow-[0_0_15px_rgba(220,20,60,0.4)] whitespace-nowrap">
               Play Now
