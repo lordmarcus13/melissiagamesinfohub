@@ -17,26 +17,7 @@ const iconMap: Record<string, React.ElementType> = {
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const [isMusicPlaying, setIsMusicPlaying] = useState(false);
-  const audioRef = useRef<HTMLAudioElement | null>(null);
   const pathname = usePathname();
-
-  useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.volume = 0.3;
-    }
-    // Attempt auto-play on first interaction
-    const handleFirstInteraction = () => {
-      if (audioRef.current && !isMusicPlaying) {
-        audioRef.current.play().then(() => {
-          setIsMusicPlaying(true);
-        }).catch(e => console.log("Autoplay blocked"));
-      }
-      window.removeEventListener("click", handleFirstInteraction);
-    };
-    window.addEventListener("click", handleFirstInteraction);
-    return () => window.removeEventListener("click", handleFirstInteraction);
-  }, []);
 
   useEffect(() => {
     if (isOpen) {
@@ -49,41 +30,19 @@ export function Navbar() {
     };
   }, [isOpen]);
 
-  const toggleMusic = () => {
-    if (audioRef.current) {
-      if (isMusicPlaying) {
-        audioRef.current.pause();
-        setIsMusicPlaying(false);
-      } else {
-        audioRef.current.play().then(() => {
-          setIsMusicPlaying(true);
-        });
-      }
-    }
-  };
-
   return (
     <nav className="fixed w-full z-50 bg-bdo-surface backdrop-blur-md">
       <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-bdo-border to-transparent" />
-      <audio ref={audioRef} src="/sounds/bgm.mp3" loop />
       <div className="w-full mx-auto px-2 sm:px-4 lg:px-4 xl:px-4 2xl:px-8">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center xl:gap-4 2xl:gap-8">
+          <div className="flex items-center gap-2 xl:gap-2 2xl:gap-6">
             <Link href="/" className="flex-shrink-0">
-              <span className="text-[20px] 2xl:text-2xl font-serif font-bold text-bdo-gold text-shadow-gold tracking-widest">
+              <span className="text-[20px] 2xl:text-2xl font-serif font-bold text-bdo-gold text-shadow-gold tracking-widest pr-2">
                 MELISSIA <span className="text-white">GAMES</span>
               </span>
             </Link>
             
-            <button 
-              onClick={(e) => { e.stopPropagation(); toggleMusic(); }}
-              className="hidden 2xl:flex text-gray-400 hover:text-bdo-gold transition-colors p-2 rounded-full hover:bg-bdo-gray/50 ml-2"
-              title={isMusicPlaying ? "Pause BGM" : "Play BGM"}
-            >
-              {isMusicPlaying ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
-            </button>
-            
-            <div className="hidden 2xl:flex items-baseline space-x-0.5 2xl:space-x-2">
+            <div className="hidden 2xl:flex items-baseline space-x-0.5 2xl:space-x-1">
               <Link href="/wiki/enhancement-calculator" className="flex items-center space-x-1 px-1 2xl:px-2 py-2 rounded-md text-[13px] 2xl:text-sm font-medium transition-colors text-bdo-gold hover:text-white whitespace-nowrap">
                 <Swords className="w-4 h-4 mr-1" />
                 <span>Enhancement</span>
@@ -139,6 +98,10 @@ export function Navbar() {
                   </div>
                 );
               })}
+              
+              <Link href="/wiki/server-info" className="flex items-center space-x-1 px-1 2xl:px-2 py-2 rounded-md text-[13px] 2xl:text-sm font-medium transition-colors text-bdo-gold hover:text-white whitespace-nowrap ml-2">
+                <span>Server Info & Rates</span>
+              </Link>
             </div>
           </div>
 

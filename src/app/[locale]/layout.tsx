@@ -3,7 +3,6 @@ import { getMessages } from 'next-intl/server';
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { GoogleTranslate } from "@/components/GoogleTranslate";
-import { ClickSoundProvider } from "@/components/ClickSoundProvider";
 import { Noto_Sans, Cinzel } from "next/font/google";
 import { locales } from "@/i18n";
 
@@ -26,7 +25,6 @@ export default async function LocaleLayout({
   return (
     <div className={`${notoSans.variable} ${cinzel.variable} flex flex-col min-h-screen dark`}>
       <NextIntlClientProvider messages={messages}>
-        <ClickSoundProvider />
         <GoogleTranslate />
         <Navbar />
         <main className="flex-grow flex flex-col">
