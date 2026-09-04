@@ -33,18 +33,18 @@ export function Navbar() {
   return (
     <nav className="fixed w-full z-50 bg-bdo-surface backdrop-blur-md">
       <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-bdo-border to-transparent" />
-      <div className="w-full mx-auto px-2 sm:px-4 lg:px-4 xl:px-4 2xl:px-2">
+      <div className="w-full mx-auto px-2 sm:px-4 lg:px-4 xl:px-4 2xl:px-4">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-1 xl:gap-1 2xl:gap-1">
+          <div className="flex items-center gap-1 xl:gap-2 2xl:gap-3">
             <Link href="/" className="flex-shrink-0">
-              <span className="text-[18px] 2xl:text-[20px] font-serif font-bold text-bdo-gold text-shadow-gold tracking-widest">
+              <span className="text-[18px] 2xl:text-[21px] font-serif font-bold text-bdo-gold text-shadow-gold tracking-widest mr-1 2xl:mr-2">
                 MELISSIA <span className="text-white">GAMES</span>
               </span>
             </Link>
             
-            <div className="hidden 2xl:flex items-baseline space-x-0">
-              <Link href="/wiki/enhancement-calculator" className="flex items-center px-1 py-2 rounded-md text-[12px] 2xl:text-[13px] font-medium transition-colors text-bdo-gold hover:text-white whitespace-nowrap">
-                <Swords className="w-4 h-4 mr-1" />
+            <div className="hidden 2xl:flex items-baseline space-x-1 2xl:space-x-1">
+              <Link href="/wiki/enhancement-calculator" className="flex items-center space-x-1 px-1.5 py-2 rounded-md text-[13px] 2xl:text-[13.5px] font-medium transition-colors text-bdo-gold hover:text-white whitespace-nowrap">
+                <Swords className="w-4 h-4" />
                 <span>Enhancement</span>
               </Link>
               
@@ -58,10 +58,10 @@ export function Navbar() {
                     onMouseLeave={() => setActiveDropdown(null)}
                   >
                     <button className={cn(
-                      "flex items-center px-1 py-2 rounded-md text-[12px] 2xl:text-[13px] font-medium transition-colors hover:text-bdo-gold whitespace-nowrap",
+                      "flex items-center space-x-1 px-1.5 py-2 rounded-md text-[13px] 2xl:text-[13.5px] font-medium transition-colors hover:text-bdo-gold whitespace-nowrap",
                       activeDropdown === category.name ? "text-bdo-gold" : "text-gray-300"
                     )}>
-                      {Icon && <Icon className="w-4 h-4 mr-1" />}
+                      {Icon && <Icon className="w-4 h-4" />}
                       <span>{category.name}</span>
                       <ChevronDown className="w-4 h-4" />
                     </button>
@@ -99,8 +99,8 @@ export function Navbar() {
                 );
               })}
               
-              <Link href="/wiki/server-info" className="flex items-center px-1 py-2 rounded-md text-[12px] 2xl:text-[13px] font-medium transition-colors hover:text-bdo-gold whitespace-nowrap text-gray-300">
-                <Info className="w-4 h-4 mr-1" />
+              <Link href="/wiki/server-info" className="flex items-center space-x-1 px-1.5 py-2 rounded-md text-[13px] 2xl:text-[13.5px] font-medium transition-colors hover:text-bdo-gold whitespace-nowrap text-gray-300">
+                <Info className="w-4 h-4" />
                 <span>Server Info & Rates</span>
               </Link>
             </div>
