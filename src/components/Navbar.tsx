@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, ChevronDown, Rocket, Swords, ShoppingCart, Users, Search, Volume2, VolumeX } from 'lucide-react';
+import { Menu, X, ChevronDown, Rocket, Swords, ShoppingCart, Users, Search, Volume2, VolumeX, Info } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { WIKI_CATEGORIES } from '@/lib/wikiConfig';
 import { cn } from '@/lib/utils';
@@ -99,8 +99,9 @@ export function Navbar() {
                 );
               })}
               
-              <Link href="/wiki/server-info" className="flex items-center px-1 2xl:px-2 py-2 rounded-md text-[13px] 2xl:text-sm font-medium transition-all transform hover:-translate-y-0.5 text-bdo-gold hover:text-white whitespace-nowrap ml-1 shadow-sm">
-                Server Info & Rates
+              <Link href="/wiki/server-info" className="flex items-center space-x-1 px-1 2xl:px-2 py-2 rounded-md text-[13px] 2xl:text-sm font-medium transition-colors hover:text-bdo-gold whitespace-nowrap text-gray-300 ml-1">
+                <Info className="w-4 h-4 mr-1" />
+                <span>Server Info & Rates</span>
               </Link>
             </div>
           </div>
