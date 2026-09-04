@@ -115,19 +115,30 @@ export default function Home() {
             
             {/* Server Info Highlight */}
             <div className="mt-6 max-w-5xl mx-auto px-4">
-              <div className="relative p-2 md:p-4 group text-center">
-                <p className="text-base md:text-lg text-gray-200 font-light leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
-                  <strong className="text-bdo-gold font-serif text-lg md:text-xl font-bold tracking-wide mr-1 drop-shadow-[0_2px_4px_rgba(0,0,0,1)]">Melissia Games</strong> 
+              <motion.div 
+                animate={{ 
+                  scale: [1, 1.02, 1],
+                  opacity: [0.85, 1, 0.85],
+                  filter: [
+                    "drop-shadow(0px 0px 2px rgba(198,156,109,0.1))",
+                    "drop-shadow(0px 0px 10px rgba(198,156,109,0.4))",
+                    "drop-shadow(0px 0px 2px rgba(198,156,109,0.1))"
+                  ]
+                }}
+                transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
+                className="relative p-2 md:p-4 group text-center"
+              >
+                <p className="text-lg md:text-xl text-gray-200 font-light leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
                   Currently running <span className="text-white font-medium">January 15, 2025 patch</span> with <span className="text-yellow-200 font-medium">Seoul area</span>, <span className="text-white font-medium">Dosa & Scholar & Deadeye classes</span> and <span className="text-white font-medium">Voltarion Horse & Boosted Alpaca mounts</span>.
                 </p>
-                <p className="mt-2 text-sm md:text-base text-gray-300 font-light leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+                <p className="mt-2 text-base md:text-lg text-gray-300 font-light leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
                   Over <span className="text-white font-medium">six years</span> of continuous development history, offering an active, non-toxic community environment alongside retail-like content with <strong className="text-bdo-gold tracking-wide font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,1)]">boosted rates</strong>.
                 </p>
                 
-                <div className="mt-3 flex flex-col items-center justify-center text-bdo-gold/90 animate-pulse">
+                <div className="mt-3 flex flex-col items-center justify-center text-bdo-gold/90">
                   <span className="text-xs md:text-sm font-bold tracking-[0.2em] uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">↓ Search for more ↓</span>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             <div className="mt-4 max-w-4xl mx-auto relative z-30">
