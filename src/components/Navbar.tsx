@@ -35,9 +35,9 @@ export function Navbar() {
       <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-bdo-border to-transparent" />
       <div className="w-full mx-auto px-2 sm:px-4 lg:px-4 xl:px-4 2xl:px-8">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-2 xl:gap-2 2xl:gap-6">
+          <div className="flex items-center gap-1 xl:gap-2 2xl:gap-3">
             <Link href="/" className="flex-shrink-0">
-              <span className="text-[20px] 2xl:text-2xl font-serif font-bold text-bdo-gold text-shadow-gold tracking-widest pr-2">
+              <span className="text-[20px] 2xl:text-2xl font-serif font-bold text-bdo-gold text-shadow-gold tracking-widest mr-2">
                 MELISSIA <span className="text-white">GAMES</span>
               </span>
             </Link>
@@ -99,14 +99,13 @@ export function Navbar() {
                 );
               })}
               
-              <Link href="/wiki/server-info" className="flex flex-col items-center justify-center px-1 2xl:px-2 py-1 rounded-md text-[12px] 2xl:text-[13px] font-medium transition-transform transform hover:-translate-y-0.5 text-bdo-gold hover:text-white leading-tight text-center ml-2">
-                <span>Server Info</span>
-                <span>& Rates</span>
+              <Link href="/wiki/server-info" className="flex items-center px-1 2xl:px-2 py-2 rounded-md text-[13px] 2xl:text-sm font-medium transition-all transform hover:-translate-y-0.5 text-bdo-gold hover:text-white whitespace-nowrap ml-1 shadow-sm">
+                Server Info & Rates
               </Link>
             </div>
           </div>
 
-          <div className="hidden 2xl:flex items-center space-x-1 2xl:space-x-4">
+          <div className="hidden 2xl:flex items-center space-x-1 2xl:space-x-2">
             <SearchInput className="w-24 2xl:w-48" />
             <LanguageSwitcher />
             <Link href="/wiki/download-setup" className="px-3 2xl:px-5 py-2 bg-bdo-crimson text-white rounded text-[13px] 2xl:text-sm font-medium hover:bg-red-700 transition-colors shadow-[0_0_15px_rgba(220,20,60,0.4)] whitespace-nowrap">
