@@ -19,7 +19,10 @@
 ### WHAT IS MELISSIA GAMES CURRENT VERSION & WHAT ARE MOST RECENT CLASSES and ZONES?
 ※ Melissia Games is currently running the January (15 jan) 2025, Deadeye update patch. It includes all prior classes with Scholar, Dosa, and Deadeye. Recent available territories LoML, Seoul Area. 
 
-### WHERE CAN I DOWNLOAD THE GAME?
+### WHERE IS SERVER LOCATED?
+※ France (Gravelines)
+
+### HOW CAN I DOWNLOAD THE GAME?
 
 ※ You can download the game from the [Setup Guide](https://melissiagamesinfohub.vercel.app/en/wiki/download-setup) section.
 

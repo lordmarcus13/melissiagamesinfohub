@@ -4,6 +4,7 @@
 
 Currently running **Deadeye Update** (January 2025). 
 Melissia Games is a Black Desert Online project with over 6 years of history, under continuous development since the early stages of the game.
+Server Location: France (Gravelines)
 
 ## ❈ Melissia Games Features ❈ 
 * **Updates:** Deadeye / Dosa / Scholar Update
@@ -12,6 +13,7 @@ Melissia Games is a Black Desert Online project with over 6 years of history, un
 * **Infrastructure:** Continuous Development
 * **Gear Economy:** No Custom Gear (Retail-like with increased rates)
 * **Environment:** Active Community / No Toxicity
+
 
 ## Server Rates
 
