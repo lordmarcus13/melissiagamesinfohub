@@ -9,7 +9,7 @@ This guide is strictly designed to show you a fast and direct speed-up process, 
 
 *   [**The Setup**](#start): Create a Season Character. **Skip the tutorial.** Start at Ancient Stone Chamber. Pop all XP and Melissia Premium buffs immediately.
 *   [**The Springboard**](#springboard-balenos-dark-clouds-over-velia): Spam `R` through the main quest until `[Balenos] Dark Clouds Over Velia`. Talk to Alustin and strictly choose the **Simplified Crossroad**.
-*   [**Zero-RNG Naru**](#the-zero-rng-naru): Accept Fughar's Memorandum. Get Naru gear. Spam the Spacebar to hit PEN (V) Naru instantly (zero failstacks, zero RNG). Convert it all to PRI (I) Tuvala.
+*   [**Zero-RNG Naru**](#the-zero-rng-naru): Accept Fughar's Memorandum. Get Naru gear. Spam enhancement button to hit PEN (V) Naru instantly (zero failstacks, zero RNG). Convert it all to PRI (I) Tuvala.
 *   [**The Power-Level Loop**](#the-leveling--memorandum-loop): Tap your Tuvala weapons with Time-filled Fragments. Ride to **Helms Post** and obliterate mobs to jump from Level 21 to 58 in minutes. *(Do the Lv. 49 Black Spirit quest to uncap your level).*
 *   [**Fughar's Chapters**](#chapters-done): Spam chat with the Black Spirit to clear all Fughar's Memorandum chapters for massive instant rewards.
 *   [**Maxing Tuvala**](#maxing-out-tuvala-the-final-push): Claim everything from the Season Pass. Tap all Tuvala gear to PEN. Smash base accessories together to hit PEN (takes about 6 bases, zero crons/FS needed).
@@ -143,7 +143,7 @@ Our server features an absolute zero-RNG guaranteed enhancement path because of 
 
 * Open the enhancement window.
 * Throw your Naru weapon/armor in.
-* **Just spam the Spacebar.** No failstacks, no Valk’s Advice, no Crons, no hesitation.
+* **Just spam enhancement button.** No failstacks, no Valk’s Advice, no Crons, no hesitation.
 * Watch it go from +1 to **PEN (V)** without a single failure.
 
 Enhance as many pieces as you can with the stones you have for every single Naru piece (Weapons and Armors). Once they are all PEN, the same window will ask if you want to upgrade them into PRI (I) Tuvala Gear.
