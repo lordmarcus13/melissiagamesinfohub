@@ -40,18 +40,18 @@ You can access in-game boss-timer by:
 | 13:45 | 10:45 | Sangoon | - | - |
 | 14:00 | 11:00 | Kzarka | - | - |
 | 15:30 | 12:30 | Quint | Muraka | - |
-| 16:00 | 13:00 | Stormbringer Nouver | - | - |
-| 17:00 | 14:00 | Offin | Bulgasal | - |
+| 16:00 | 13:00 | Ancient Kutum | - | - |
+| 17:00 | 14:00 | Targargo | Bulgasal | - |
 | 17:15 | 14:15 | Uturi | - | - |
 | 17:30 | 14:30 | Golden Pig King | - | - |
 | 17:45 | 14:45 | Sangoon | - | - |
-| 18:00 | 15:00 | Kzarka Nightmares | - | - |
+| 18:00 | 15:00 | Karanda | - | - |
 | 19:00 | 16:00 | Garmoth | - | - |
 | 21:00 | 18:00 | Bulgasal | - | - |
 | 21:15 | 18:15 | Uturi | - | - |
-| 21:30 | 18:30 | Dim Tree Spirit | Dastard Bheg | Golden Pig King |
+| 21:30 | 18:30 | Giant Mudster | Red Nose | Golden Pig King |
 | 21:45 | 18:45 | Sangoon | - | - |
-| 23:30 | 20:30 | Nouver | Kzarka Nightmares | - |
+| 23:30 | 20:30 | Thundercloud Ancient Kutum | - | - |
 
 ## Spawn Numbers
 
