@@ -23,7 +23,7 @@ const bossSchedule = [
     { time: "13:15", bosses: ["Uturi"] },
     { time: "13:30", bosses: ["Golden Pig King"] },
     { time: "13:45", bosses: ["Sangoon"] },
-    { time: "14:00", bosses: ["Thundercloud Ancient Kutum"] },
+    { time: "14:00", bosses: ["Kzarka"] },
     { time: "15:30", bosses: ["Quint", "Muraka"] },
     { time: "16:00", bosses: ["Stormbringer Nouver"] },
     { time: "17:00", bosses: ["Offin", "Bulgasal"] },

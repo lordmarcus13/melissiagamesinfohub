@@ -38,7 +38,7 @@ You can access in-game boss-timer by:
 | 13:15 | 10:15 | Uturi | - | - |
 | 13:30 | 10:30 | Golden Pig King | - | - |
 | 13:45 | 10:45 | Sangoon | - | - |
-| 14:00 | 11:00 | Thundercloud Ancient Kutum | - | - |
+| 14:00 | 11:00 | Kzarka | - | - |
 | 15:30 | 12:30 | Quint | Muraka | - |
 | 16:00 | 13:00 | Stormbringer Nouver | - | - |
 | 17:00 | 14:00 | Offin | Bulgasal | - |
